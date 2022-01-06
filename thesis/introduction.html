@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Context Dependencies in Decision Making</title>
+  <meta name="description" content="Context Dependencies in Decision Making" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Context Dependencies in Decision Making" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Context Dependencies in Decision Making" />
+  
+  
+  
+
+<meta name="author" content="Tsvetomira Dumbalska" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="decoy.html"/>
+<style type="text/css">
+p.abstract{
+  text-align: center;
+  font-weight: bold;
+}
+div.abstract{
+  margin: auto;
+  width: 90%;
+}
+</style>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="templates/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#optimality"><i class="fa fa-check"></i><b>1.1</b> Optimal Decisions</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="introduction.html"><a href="introduction.html#optimality-perc"><i class="fa fa-check"></i><b>1.1.1</b> Optimality in Perception</a></li>
+<li class="chapter" data-level="1.1.2" data-path="introduction.html"><a href="introduction.html#optimality-econ"><i class="fa fa-check"></i><b>1.1.2</b> Optimality in Economics</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#context-dependencies"><i class="fa fa-check"></i><b>1.2</b> Context Dependencies</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="introduction.html"><a href="introduction.html#perceptual-decisions"><i class="fa fa-check"></i><b>1.2.1</b> Perceptual Decisions</a></li>
+<li class="chapter" data-level="1.2.2" data-path="introduction.html"><a href="introduction.html#economic-decisions"><i class="fa fa-check"></i><b>1.2.2</b> Economic Decisions</a></li>
+<li class="chapter" data-level="1.2.3" data-path="introduction.html"><a href="introduction.html#parallels"><i class="fa fa-check"></i><b>1.2.3</b> Parallels</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#the-underpinnings-of-context-dependent-choice"><i class="fa fa-check"></i><b>1.3</b> The Underpinnings of Context-Dependent Choice</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="introduction.html"><a href="introduction.html#neural-constraints-efficiency"><i class="fa fa-check"></i><b>1.3.1</b> Neural Constraints &amp; Efficiency</a></li>
+<li class="chapter" data-level="1.3.2" data-path="introduction.html"><a href="introduction.html#behavioral-relevance"><i class="fa fa-check"></i><b>1.3.2</b> Behavioral Relevance</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#thesis-outline"><i class="fa fa-check"></i><b>1.4</b> Thesis Outline</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="decoy.html"><a href="decoy.html"><i class="fa fa-check"></i><b>2</b> A map of decoy influence in multialternative economic choice</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="decoy.html"><a href="decoy.html#introduction-1"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="decoy.html"><a href="decoy.html#experiment"><i class="fa fa-check"></i><b>2.2</b> Experiment</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="decoy.html"><a href="decoy.html#methods"><i class="fa fa-check"></i><b>2.2.1</b> Methods</a></li>
+<li class="chapter" data-level="2.2.2" data-path="decoy.html"><a href="decoy.html#results"><i class="fa fa-check"></i><b>2.2.2</b> Results</a></li>
+<li class="chapter" data-level="2.2.3" data-path="decoy.html"><a href="decoy.html#interim-discussion"><i class="fa fa-check"></i><b>2.2.3</b> Interim Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="decoy.html"><a href="decoy.html#computational-modeling"><i class="fa fa-check"></i><b>2.3</b> Computational Modeling</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="decoy.html"><a href="decoy.html#adaptive-gain-model"><i class="fa fa-check"></i><b>2.3.1</b> Adaptive Gain Model</a></li>
+<li class="chapter" data-level="2.3.2" data-path="decoy.html"><a href="decoy.html#model-comparisons"><i class="fa fa-check"></i><b>2.3.2</b> Model Comparisons</a></li>
+<li class="chapter" data-level="2.3.3" data-path="decoy.html"><a href="decoy.html#charting-normalization-models-of-decoy-influence"><i class="fa fa-check"></i><b>2.3.3</b> Charting Normalization Models of Decoy Influence</a></li>
+<li class="chapter" data-level="2.3.4" data-path="decoy.html"><a href="decoy.html#interim-discussion-1"><i class="fa fa-check"></i><b>2.3.4</b> Interim Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="decoy.html"><a href="decoy.html#discussion"><i class="fa fa-check"></i><b>2.4</b> Discussion</a></li>
+<li class="chapter" data-level="2.5" data-path="decoy.html"><a href="decoy.html#conclusion"><i class="fa fa-check"></i><b>2.5</b> Conclusion</a></li>
+<li class="chapter" data-level="2.6" data-path="decoy.html"><a href="decoy.html#acknowledgements"><i class="fa fa-check"></i><b>2.6</b> Acknowledgements</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="distr.html"><a href="distr.html"><i class="fa fa-check"></i><b>3</b> How do perceptual distractors distract?</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="distr.html"><a href="distr.html#introduction-2"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="distr.html"><a href="distr.html#experiment-1"><i class="fa fa-check"></i><b>3.2</b> Experiment 1</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="distr.html"><a href="distr.html#methods-3"><i class="fa fa-check"></i><b>3.2.1</b> Methods</a></li>
+<li class="chapter" data-level="3.2.2" data-path="distr.html"><a href="distr.html#results-3"><i class="fa fa-check"></i><b>3.2.2</b> Results</a></li>
+<li class="chapter" data-level="3.2.3" data-path="distr.html"><a href="distr.html#interim-discussion-2"><i class="fa fa-check"></i><b>3.2.3</b> Interim Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="distr.html"><a href="distr.html#experiment-2"><i class="fa fa-check"></i><b>3.3</b> Experiment 2</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="distr.html"><a href="distr.html#methods-4"><i class="fa fa-check"></i><b>3.3.1</b> Methods</a></li>
+<li class="chapter" data-level="3.3.2" data-path="distr.html"><a href="distr.html#results-4"><i class="fa fa-check"></i><b>3.3.2</b> Results</a></li>
+<li class="chapter" data-level="3.3.3" data-path="distr.html"><a href="distr.html#interim-discussion-2"><i class="fa fa-check"></i><b>3.3.3</b> Interim Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="distr.html"><a href="distr.html#experiment-3"><i class="fa fa-check"></i><b>3.4</b> Experiment 3</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="distr.html"><a href="distr.html#methods-5"><i class="fa fa-check"></i><b>3.4.1</b> Methods</a></li>
+<li class="chapter" data-level="3.4.2" data-path="distr.html"><a href="distr.html#results-5"><i class="fa fa-check"></i><b>3.4.2</b> Results</a></li>
+<li class="chapter" data-level="3.4.3" data-path="distr.html"><a href="distr.html#interim-discussion-3"><i class="fa fa-check"></i><b>3.4.3</b> Interim Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="distr.html"><a href="distr.html#computational-modeling-1"><i class="fa fa-check"></i><b>3.5</b> Computational Modeling</a></li>
+<li class="chapter" data-level="3.6" data-path="distr.html"><a href="distr.html#discussion-1"><i class="fa fa-check"></i><b>3.6</b> Discussion</a></li>
+<li class="chapter" data-level="3.7" data-path="distr.html"><a href="distr.html#conclusion-1"><i class="fa fa-check"></i><b>3.7</b> Conclusion</a></li>
+<li class="chapter" data-level="3.8" data-path="distr.html"><a href="distr.html#acknowledgements-1"><i class="fa fa-check"></i><b>3.8</b> Acknowledgements</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="cat.html"><a href="cat.html"><i class="fa fa-check"></i><b>4</b> Context-dependent categorization</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="cat.html"><a href="cat.html#introduction-3"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
+<li class="chapter" data-level="4.2" data-path="cat.html"><a href="cat.html#experiment-1-1"><i class="fa fa-check"></i><b>4.2</b> Experiment 1</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="cat.html"><a href="cat.html#methods-6"><i class="fa fa-check"></i><b>4.2.1</b> Methods</a></li>
+<li class="chapter" data-level="4.2.2" data-path="cat.html"><a href="cat.html#results-6"><i class="fa fa-check"></i><b>4.2.2</b> Results</a></li>
+<li class="chapter" data-level="4.2.3" data-path="cat.html"><a href="cat.html#interim-discussion-4"><i class="fa fa-check"></i><b>4.2.3</b> Interim Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="cat.html"><a href="cat.html#experiment-2-1"><i class="fa fa-check"></i><b>4.3</b> Experiment 2</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="cat.html"><a href="cat.html#methods-7"><i class="fa fa-check"></i><b>4.3.1</b> Methods</a></li>
+<li class="chapter" data-level="4.3.2" data-path="cat.html"><a href="cat.html#results-7"><i class="fa fa-check"></i><b>4.3.2</b> Results</a></li>
+<li class="chapter" data-level="4.3.3" data-path="cat.html"><a href="cat.html#interim-discussion-5"><i class="fa fa-check"></i><b>4.3.3</b> Interim Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="cat.html"><a href="cat.html#discussion-2"><i class="fa fa-check"></i><b>4.4</b> Discussion</a></li>
+<li class="chapter" data-level="4.5" data-path="cat.html"><a href="cat.html#conclusion-2"><i class="fa fa-check"></i><b>4.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="discussion-3.html"><a href="discussion-3.html"><i class="fa fa-check"></i><b>5</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="discussion-3.html"><a href="discussion-3.html#overview-of-results"><i class="fa fa-check"></i><b>5.1</b> Overview of Results</a></li>
+<li class="chapter" data-level="5.2" data-path="discussion-3.html"><a href="discussion-3.html#interpretation"><i class="fa fa-check"></i><b>5.2</b> Interpretation</a></li>
+<li class="chapter" data-level="5.3" data-path="discussion-3.html"><a href="discussion-3.html#zooming-out"><i class="fa fa-check"></i><b>5.3</b> Zooming Out</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="discussion-3.html"><a href="discussion-3.html#context-dependence-in-the-wild"><i class="fa fa-check"></i><b>5.3.1</b> Context Dependence in the Wild</a></li>
+<li class="chapter" data-level="5.3.2" data-path="discussion-3.html"><a href="discussion-3.html#context-dependence-as-a-tool"><i class="fa fa-check"></i><b>5.3.2</b> Context Dependence as a Tool</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="discussion-3.html"><a href="discussion-3.html#conclusion-3"><i class="fa fa-check"></i><b>5.4</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"><p>Context Dependencies in Decision Making</p></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title"><p>Context Dependencies in Decision Making</p></h1>
+<p class="author"><em>Tsvetomira Dumbalska</em></p>
+<div class="abstract">
+<p class="abstract">Abstract</p>
+<p>Irrelevant information should not affect our decisions. Yet, our choices are often swayed by contextual input that is entirely unrelated to the decision at hand. This is true for perceptual judgments pertaining to the appearance of a visual stimulus, as well as for more abstract evaluations of economic prospects. My thesis examines three specific instances of context-dependent behavior across the realms of perception and economics. Across all studies, I charted the behavioral signatures of context-dependent choices via careful experimental manipulation. I combined this behavioral data with simulations of mathematical models to arbitrate between different theoretical accounts of the mechanisms underlying context-dependent decision making. My first study investigated how the context provided by an additional (decoy) alternative sways economic choice between two target options. It mapped decoy influence across the full attribute space of possible decoy definitions. My second study examined the influence that an irrelevant distractor stimulus wields on perceptual decisions. It combined psychophysical measurement with regression-based and reverse correlation analytic approaches to shed light on the functional form of distractor effects. Finally, my third study probed the mechanisms driving context-dependent categorization decisions. It measured the contributions of putative drivers of contextual influence combining novel analytic techniques with experimental design controlling for potential confounds. Across the three studies, normalization-based information processing schemes emerged as a common theme. Viewed through the normative lens of efficient neural coding, normalization provides a compelling account for the observed patterns of context-dependent choice behavior.</p>
+</div>
+</div>
+<div id="introduction" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Introduction</h1>
+<!-- For PDF output, include these two LaTeX commands after unnumbered chapter headings, otherwise the mini table of contents and the running header will show the previous chapter -->
+<p>What makes a good decision? A common theme among the various answers provided over the centuries by writers, philosophers, and social scientists argues that a good decision accurately evaluates all of the relevant information, ignoring any irrelevant or distracting input. Yet, human choices often deviate from this compelling principle.</p>
+<p>Our judgments about a stimulus are often swayed by irrelevant information in the context in which the decision occurs. In some settings, we might consistently judge the stimulus as large or valuable, while in others, that same stimulus might appear small and unappealing. How do these stereotyped patterns of context-dependent choice behavior come about? My thesis addresses this question across the realms of perception and economics. This chapter outlines normative views about optimal decisions from both disciplines, reviews established patterns of context-dependent decision making, and considers the underpinnings of contextual choice biases.</p>
+<div id="optimality" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Optimal Decisions</h2>
+<p>Optimal decisions in perception maximize the likelihood of a correct evaluation of a sensory feature; optimal decisions in economics maximize the decision maker’s utility. Despite these differences in definition, classic normative theories across both disciplines posit that optimal choice behavior should produce a monotonic function linking the relevant feature(s) of a target stimulus and the probability of choosing it.</p>
+<div id="optimality-perc" class="section level3" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> Optimality in Perception</h3>
+<p>In perception research, human participants are typically presented with sensory stimuli, such as weighted objects, tilted lines or auditory tones, and are asked to compare or categorize them. In those psychophysical experiments, there is usually a clear-cut correct answer – the experimenter can measure the objective sensory value of each stimulus and determine the larger, more tilted or higher-pitched option. Human choices are usually stochastic, or randomly variable, in a way that is dependent on the true stimulus magnitude. The mapping of feature magnitude on participant choice is quantified in the psychometric function. While perfect performance would produce a step function, empirically measured psychometric functions are typically smooth (Fig. <a href="introduction.html#fig:intro-psychom">1.1</a>). That is, there is no threshold magnitude above which a stimulus would always be judged as big, and below which as small.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:intro-psychom"></span>
+<img src="figures/intro-psychom.png" alt="The psychometric function. As an example, an observer may be presented with series of objects of different sizes and asked to categorize each of them as large or small. The x-axis maps the size of each object in the experiment. The y-axis tracks the probability that the observer would categorize a given object as large. The dotted line illustrates a step-wise psychometric function, where all objects above a certain size are always categorized as large and all objects below that size are always categorized as small. By contrast, the solid curve illustrates a typical psychometric function estimated from empirical data." width="70%" />
+<p class="caption">
+Figure 1.1: The psychometric function. As an example, an observer may be presented with series of objects of different sizes and asked to categorize each of them as large or small. The x-axis maps the size of each object in the experiment. The y-axis tracks the probability that the observer would categorize a given object as large. The dotted line illustrates a step-wise psychometric function, where all objects above a certain size are always categorized as large and all objects below that size are always categorized as small. By contrast, the solid curve illustrates a typical psychometric function estimated from empirical data.
+</p>
+</div>
+<p>This characteristic stochasticity of perception posed a puzzle for earlier theories in the field; the advent of signal detection theory <span class="citation">(<a href="#ref-green1966" role="doc-biblioref">Green and Swets 1966</a>)</span> ushered in modern thinking about it. Smooth psychometric curves can be explained by the assumption that perceptual choices are based on an internal representation <span class="math inline">\(\hat{x}\)</span> of the sensory stimulus <span class="math inline">\(x\)</span> that is corrupted by encoding noise. As suggested by its name, encoding noise arises early on in the processing of a sensory stimulus owing to the intrinsic randomness of neural processes or intrinsic limits on the observability of the stimulus. It is often assumed that encoding noise follows a Gaussian distribution. Consequently, sensory representations may be captured by a random draw from a normal distribution whose mean corresponds to some monotonically increasing function of the magnitude of the true sensory feature and some measure of the variability in the representation:</p>
+<p><span class="math display">\[\begin{equation}
+\hat{x} \sim N(f(x),\nu^2) 
+\end{equation}\]</span></p>
+<p>The shape of the transformation <span class="math inline">\(f(x)\)</span> is classically assumed to follow a logarithmic compression (Weber-Fechner’s law for sensory systems), whereby sensitivity to changes in sensory inputs diminishes with the absolute magnitude of stimulation. This phenomenon is ubiquitous across perceptual modalities: the addition of 50g would be easy to notice if we were holding an object weighing 100g; however, we would fail to detect it if the object weighed 1kg. Similarly, we might easily notice the difference between the first and second spoonful of sugar in a cup of tea; noticing the difference between the ninth and tenth would, however, pose a challenge. This characteristic logarithmic compression of sensory magnitudes is an efficient strategy for the neural coding of percepts under the biological capacity constraints of the neural system <span class="citation">(<a href="#ref-sun2012" role="doc-biblioref">Sun et al. 2012</a>; <a href="#ref-wei2017" role="doc-biblioref">Wei and Stocker 2017</a>)</span>.</p>
+<p>Ideal observer models treat observer choices as inferences about the true stimulus magnitude based on the noisy internal representation (<span class="math inline">\(\hat{x}\)</span>). An efficient decision rule is a likelihood ratio test against a decision criterion (Neyman-Pearson Lemma). This test compares the ratio of the conditional probability of the observed internal state occurring, given the possible true stimulus magnitudes, against a threshold value.</p>
+</div>
+<div id="optimality-econ" class="section level3" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> Optimality in Economics</h3>
+<p>In economic analysis, human behavior is explained via the incentives presented by the environment. However, the incentive values of different economic prospects or consumer goods depend on the idiosyncratic preferences of each individual. Thus, compared with psychophysical perception experiments, it is less straightforward to define what the right answer is in any choice situation. Nevertheless, rational choice theory posits that an individual’s preferences ought to be transitively ordered and internally consistent.</p>
+<p>It is classically assumed that economic decisions elicit decision makers’ preferences, which are a fixed function of stimulus characteristics. In the case of uncertain economic prospects (e.g. gambles with probabilistic outcomes), the expected value is determined by the product of the probability of the event and its magnitude (the monetary outcome). This idea, first introduced by Pascal in the 17th century, provides a benchmark for optimal choice behavior. However, in certain situations, expected value theory leads to choices that appear irrational – take for instance a lottery ticket offering a 50% chance of winning £1 million and a 50% chance of winning nothing. The expected value of this gamble is £500 000 (50% <span class="math inline">\(\cdot\)</span> £1 million), and so if someone were to offer to purchase the lottery ticket from us for £499 999, expected value theory dictates we should refuse. Intuitively, however, this choice seems unappealing. In terms of practical changes to our quality of life, the difference between having £499 999 and having nothing (can I afford basic necessities?) is much starker than the difference between having £499 999 and having £1 million (can I afford additional luxuries?).</p>
+<p>This idea was formalized by Bernoulli with the example of the St Petersburg paradox <span class="citation">(another hypothetical gamble, <a href="#ref-dutka1988" role="doc-biblioref">Dutka 1988</a>)</span>, which demonstrates that the <em>utility</em> (<span class="math inline">\(u(x)\)</span>, i.e. subjective value) we attach to economic prospects is a concave function of their expected value <span class="citation">(e.g. the von Neumann-Morgenstern utility function, <a href="#ref-vonneumann1944" role="doc-biblioref">Von Neumann and Morgenstern 1944</a>)</span>. Thus, the marginal utility of an additional pound decreases with the total amount of money we have. Expected utility theory has been further refined since to capture the specific rate of decrease of marginal utility as well as risk preferences of individuals <span class="citation">(e.g. Prospect theory, <a href="#ref-kahneman1979" role="doc-biblioref">Kahneman and Tversky 1979</a>)</span>. Recent work has demonstrated that the shape of these distortions of expected value constitutes an efficient reward-maximizing strategy under the biological constraints to computational precision in the human brain <span class="citation">(<a href="#ref-juechems2021" role="doc-biblioref">Juechems et al. 2021</a>)</span>.</p>
+<p>These biological constraints are further reflected in the stochastic nature of empirically derived utility functions <span class="citation">(e.g. <a href="#ref-luce1959" role="doc-biblioref">Luce 1959</a>; <a href="#ref-block1960" role="doc-biblioref">Block and Marschak 1960</a>; <a href="#ref-mcfadden1981" role="doc-biblioref">McFadden 1981</a>)</span>. While traditionally, empirical studies on individuals’ choice behavior in economics have used one-off hypothetical scenarios or vignettes <span class="citation">(e.g. <a href="#ref-kahneman1979" role="doc-biblioref">Kahneman and Tversky 1979</a>)</span>, studies where incentives are varied parametrically have mirrored findings about the stochasticity of choice behavior from perception research <span class="citation">(e.g. <a href="#ref-mosteller1951" role="doc-biblioref">Mosteller and Nogee 1951</a>)</span>. Therefore, the empirically measured mapping of stimulus features on subjective utility is typically a smooth psychometric curve. The observed smooth, S-shaped psychometric functions can be captured by a stochastic utility representation, where the subjective value function is randomly variable like in sensory perception, <span class="math inline">\(\hat{u}(x)\)</span> <span class="citation">(as in random utility models, <a href="#ref-mcfadden1981" role="doc-biblioref">McFadden 1981</a>)</span>. It is usually assumed that, unlike in sensory systems, the source of noise does not stem from early processing stages <span class="citation">(although noise might affect the encoding of both value, <a href="#ref-bhui2018" role="doc-biblioref">Bhui and Gershman 2018</a>; and probability <a href="#ref-steiner2016" role="doc-biblioref">Steiner and Stewart 2016</a>)</span>, but rather, from inaccurate retrievals from memory of the true stimulus utility to the individual <span class="citation">(e.g. <a href="#ref-polania2018" role="doc-biblioref">Polania, Woodford, and Ruff 2018</a>)</span>. That is, there is no inaccuracy in the encoding of the identity and characteristics of the option under consideration. Instead, the mapping of the characteristics of the option onto choice is subject to random variability.</p>
+</div>
+</div>
+<div id="context-dependencies" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Context Dependencies</h2>
+<p>While these normative principles dictate that choices about a target stimulus should be a function of that stimulus alone, human decisions, across perception and economics alike, are often influenced by the context in which they occur.</p>
+<div id="perceptual-decisions" class="section level3" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> Perceptual Decisions</h3>
+<p>Human perception is astonishingly context-dependent. A long tradition in perception research has considered that percepts, and the underlying neural responses forming them, are not simply a function of the focal input. Rather, they are a function of the focal input as well as the current background and recent history of stimulation <span class="citation">(<a href="#ref-webster2015" role="doc-biblioref">Webster 2015</a>)</span>. The Weber-Fechner law described earlier offers one compelling example of the ubiquity of context dependence. Objectively the exact same stimulus can be more difficult to detect depending on the context in which it occurs. Consider the stars, for instance – they are practically invisible to us in the daytime under the bright illumination of sunlight, yet at night, in the relative darkness of moonlight, perceiving stars is much easier. Similarly, light pollution in cities, driven for instance by streetlights, makes stargazing a challenge compared to the darker nighttime settings available in the wilderness. Across all those scenarios our perception of the target stimulus (stars) is dramatically affected by the context (illumination provided by sunlight, moonlight or artificial lighting). Below I consider other instances of the influence of temporal or spatial context on our perception.</p>
+<div id="temporal-context" class="section level4" number="1.2.1.1">
+<h4><span class="header-section-number">1.2.1.1</span> Temporal Context</h4>
+<p>The visual system continuously adapts to the temporal context to ensure that it is maximally sensitive to changes in the inputs that are most likely to occur (i.e. those close to the mean levels of environmental stimulation). <em>Adaptation</em> to contextual levels of stimulation occurs continuously, at multiple time-scales and across multiple domains. Adaptation to light, for instance, can occur at the timescale of seconds and minutes, when moving from outdoors on a sunny day to a dimly lit room, but it also occurs across seasons as the colors dominating our natural environment change <span class="citation">(<a href="#ref-welbourne2015" role="doc-biblioref">Welbourne, Morland, and Wade 2015</a>)</span>, and over the course of the lifetime as the increasing pigment density of the lens in the human eye modifies the spectral composition of light reaching the retina <span class="citation">(<a href="#ref-webster2015" role="doc-biblioref">Webster 2015</a>)</span>. The visual system adapts to local low-level stimulus features such as lightness, color and tilt, as well as to more complex, spatially extended characteristics, such as spatial frequency and contrast, and even to composite characteristics, processed at higher levels of the visual hierarchy such as facial attributes and expressions <span class="citation">(<a href="#ref-webster2011" role="doc-biblioref">Webster 2011</a>)</span>.</p>
+<p>Adaptive effects are canonically repulsive. As the sensory system adapts to the contextual level of stimulation (i.e. the adaptation level), our experience of incoming stimuli is repelled away from it. Thus, the term repulsion refers to the relationship between our experience of the current stimulus and the properties of context, rather than the interaction between context and stimulus. This independent effect of context means that the same stimulus may be experienced as brighter (or larger) if it were presented following dim (or small) stimuli relative to how it would be experienced when presented following bright (or large) stimuli. Contextual repulsion is typically accompanied by a stimulus-context interaction. The more similar the stimulus to the current adaptation level, the higher the sensitivity of our visual system to changes in the stimulus. That is, small changes in stimulus level close to the contextual expectation are exaggerated.</p>
+<p>Computationally, adaptation can be expressed as a shift in the transducer function, linking sensory inputs to neural responses, towards the mean of contextual stimulation (Fig. <a href="introduction.html#fig:intro-adaptation">1.2</a>). The horizontal translation of the transducer illustrates the repulsive influence of context (i.e. the independent effect of context). This shift, however, also means that the slope of the transducer is steepest around the current environmental expectation, so the neural system is most sensitive to those signals that are most likely to occur (i.e. the stimulus-context interaction effect). This is an efficient strategy for neurons with limited dynamic range, as it prevents response saturation and maximizes the neural resources dedicated to the processing of the most common signals <span class="citation">(<a href="#ref-carandini2012" role="doc-biblioref">Carandini and Heeger 2012</a>)</span>.</p>
+<p>Standard place-coding process models of adaptation appealing to this normative principle propose that adaptation impacts the tuning curves of feature-selective populations of neurons (channels), diminishing neural responses to features at (and close to) the adaptation level <span class="citation">(e.g. for perceptual properties including color contrast, spatial frequency or viewpoint, <a href="#ref-webster2011" role="doc-biblioref">Webster 2011</a>)</span>. These diminished responses effectively equate sensitivity across the different channels, such that their average responses are similar within the current context. This outcome can also be achieved through a rate code, where the level of neural responsiveness conveys the stimulus identity <span class="citation">(e.g. for perceptual properties including saturation, blurriness or facial distortion, <a href="#ref-webster2011" role="doc-biblioref">Webster 2011</a>)</span>. Rate-based models of adaptation propose that context neutralizes the intensity of the response, shifting the stimulus level which corresponds to the norm or null point neural response.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:intro-adaptation"></span>
+<img src="figures/intro-adaptation.png" alt="Color adaptation. The rightmost column illustrates how the surface of Mars and the sea would appear to a human observer adapted to the landscape of Earth. In the Martian scene, the landscape is dominated by red; in the sea scene -- by blue. The middle column illustrates a neural processing scheme which adaptively shifts the transducer function to track the mean of contextual stimulation (that is, red distribution for Mars; blue distribution for the sea). The leftmost column simulates the appearance of both scenes following adaptation. Both scenes appear more chromatically neutral (adaptive repulsion). Following adaptation to the Martian context, the visual system is fine-tuned to distinguish different shades of red; following adaptation to the sea context -- sensitivity is boosted for change detection in blues. Figure concept adapted from Webster 2015." width="100%" />
+<p class="caption">
+Figure 1.2: Color adaptation. The rightmost column illustrates how the surface of Mars and the sea would appear to a human observer adapted to the landscape of Earth. In the Martian scene, the landscape is dominated by red; in the sea scene – by blue. The middle column illustrates a neural processing scheme which adaptively shifts the transducer function to track the mean of contextual stimulation (that is, red distribution for Mars; blue distribution for the sea). The leftmost column simulates the appearance of both scenes following adaptation. Both scenes appear more chromatically neutral (adaptive repulsion). Following adaptation to the Martian context, the visual system is fine-tuned to distinguish different shades of red; following adaptation to the sea context – sensitivity is boosted for change detection in blues. Figure concept adapted from Webster 2015.
+</p>
+</div>
+<p>A similar <em>temporal repulsion effect</em> is also observed in studies where participants are asked to categorize stimuli according to a perceptual feature (e.g. as “big” or “small” according to their size, or as “heavy” or “light” according to their weight). Regardless of whether participants are given an explicit category boundary (or criterion) against which to compare stimuli <span class="citation">(e.g. <a href="#ref-lages1998" role="doc-biblioref">Lages and Treisman 1998</a>; <a href="#ref-olkkonen2014" role="doc-biblioref">M. Olkkonen, McCarthy, and Allred 2014</a>)</span> or not <span class="citation">(e.g. <a href="#ref-helson1947" role="doc-biblioref">Helson 1947</a>; <a href="#ref-morgan2000" role="doc-biblioref">Morgan, Watamaniuk, and McKee 2000</a>; <a href="#ref-levari2018" role="doc-biblioref">Levari et al. 2018</a>)</span>, their choices drift over the course of the experimental session such that the empirical decision boundary effectively tracks the central tendency of the stimulus set. Thus, the same stimulus can be categorized as big or small depending on what other (irrelevant) stimuli the decision maker has recently been exposed to. Beyond the mean, other characteristics of the distribution of stimulus magnitudes, such as its range and skewness, can also sway judgments about sensory stimuli <span class="citation">(<a href="#ref-parducci1965" role="doc-biblioref">Parducci 1965</a>)</span>. Computational accounts of the repulsive influence of context on categorization judgments have appealed to temporal adaptation <span class="citation">(<a href="#ref-helson1964" role="doc-biblioref">Helson 1964</a>; <a href="#ref-parducci1965" role="doc-biblioref">Parducci 1965</a>)</span>, whereby neural responses to incoming inputs over time are dampened by normalization by the temporal context. An alternative account likens the observed effect to a <em>contraction bias</em> in working memory <span class="citation">(also known as central tendency bias, <a href="#ref-hollingworth1910" role="doc-biblioref">Hollingworth 1910</a>)</span> affecting the decision maker’s reference of the category boundary. This theoretical view proposes that categorization decisions are biased by a drift in the representation of the category boundary towards the prior <span class="citation">(e.g. midpoint of the stimulus set, contextual expectation, etc., <a href="#ref-treisman1984" role="doc-biblioref">Treisman and Williams 1984</a>; <a href="#ref-jou2004" role="doc-biblioref">Jou et al. 2004</a>; <a href="#ref-olkkonen2014" role="doc-biblioref">M. Olkkonen, McCarthy, and Allred 2014</a>)</span>. This attractive contextual bias produces a repulsive pattern of behavior, as it affects the categorization criterion against which imperative stimuli are evaluated.</p>
+<p>Temporal context effects are not necessarily always repulsive. Indeed, a large literature centers on attractive <em>serial dependencies</em> of choice <span class="citation">(<a href="#ref-kiyonaga2017" role="doc-biblioref">Kiyonaga et al. 2017</a>)</span>. In psychophysical experiments, decisions about a focal stimulus are attracted towards the features of the immediately preceding stimulus, especially if there is a delay between stimulus presentation and response or perceptual ambiguity in the stimulus <span class="citation">(<a href="#ref-akaishi2014" role="doc-biblioref">Akaishi et al. 2014</a>)</span>. This effect is modulated by the degree of similarity between the two sequential stimuli; the more similar the previous stimulus to the current one, the stronger the attraction <span class="citation">(<a href="#ref-fischer2014" role="doc-biblioref">Fischer and Whitney 2014</a>)</span>. Normative explanations of this effect appeal to its adaptive role promoting the stability of perception given the statistics of the natural environment <span class="citation">(<a href="#ref-kiyonaga2017" role="doc-biblioref">Kiyonaga et al. 2017</a>)</span>. The visual world is typically stable over time, so sensory inputs to a given area of the retina are autocorrelated. Thus, in the presence of uncertainty, a Bayesian optimal observer would use previous inputs to resolve the ambiguity <span class="citation">(<a href="#ref-ashourian2011" role="doc-biblioref">Ashourian and Loewenstein 2011</a>; <a href="#ref-olkkonen2014a" role="doc-biblioref">Maria Olkkonen and Allred 2014</a>)</span>. In support of this interpretation, previous work has shown that the stability of environmental statistics can reverse the sign of the sequential dependency effect. For more stable characteristics, such as recognizing the gender of a face, choices are positively associated with the gender of the preceding face, maximizing the stability of perceptions. Conversely, for more changeable characteristics, such as facial expression, choices are negatively associated with the expression of the preceding face, maximizing change detection <span class="citation">(<a href="#ref-taubert2016" role="doc-biblioref">Taubert, Alais, and Burr 2016</a>)</span>.</p>
+</div>
+<div id="spatial-context" class="section level4" number="1.2.1.2">
+<h4><span class="header-section-number">1.2.1.2</span> Spatial Context</h4>
+<p>Some of the most compelling demonstrations of the influence of spatial context come from the domain of color perception, where colors in the spatial vicinity of a focal stimulus can dramatically alter its color appearance. Fig. <a href="introduction.html#fig:intro-constancy">1.3</a> illustrates how the same physical color (i.e. spectrum of wavelengths emanated from a given region) can be perceived differently depending on what colors surround it. This dependence on spatial context has an adaptive purpose – it gives rise to <em>color constancy</em> or our ability to experience the color of an object (i.e. the perceptual correlate of spectral reflectance) as unchanging despite changes in the spectral composition of the illuminant. Thus, processing color signals in a relative manner, rather than in isolation, allows the neural system to solve the otherwise mathematically intractable task of interpreting the light signals reaching the retina in a way that separates an object’s surface color from the color of lighting <span class="citation">(<a href="#ref-smithson2005" role="doc-biblioref">Smithson 2005</a>)</span>. While the specific computational mechanisms underlying this phenomenon are still the topic of debate, a popular theme across proposals suggests that cone cell excitation signals in the retina are normalized by a quantity set by the context <span class="citation">(<a href="#ref-land1983" role="doc-biblioref">Land 1983</a>; <a href="#ref-foster2011" role="doc-biblioref">Foster 2011</a>)</span>.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:intro-constancy"></span>
+<img src="figures/intro-constancy.png" alt="Color constancy. On the painting on the left, the circled region on the demarcated flower petal appears red, but is actually gray. On the painting on the right, the circled region on the demarcated flower petal appears blue, but is also gray. Painting by Rachel Ruysch, ca. 1680." width="100%" />
+<p class="caption">
+Figure 1.3: Color constancy. On the painting on the left, the circled region on the demarcated flower petal appears red, but is actually gray. On the painting on the right, the circled region on the demarcated flower petal appears blue, but is also gray. Painting by Rachel Ruysch, ca. 1680.
+</p>
+</div>
+<p>Spatial dependencies in visual processing have been documented across a variety of other domains, including the perception of orientation and contrast. A classic example is the <em>tilt illusion</em> <span class="citation">(<a href="#ref-blakemore1970" role="doc-biblioref">Blakemore, Carpenter, and Georgeson 1970</a>)</span> where the tilt of a central grating is repulsed from the tilt of flanking gratings. Thus, a central horizontally oriented stimulus would appear tilted clockwise, when surrounded by anticlockwise flankers. Similarly, spatial context repels contrast perception. A central texture appears of lower contrast when surrounded by a high contrast texture compared to when surrounded by a uniform background <span class="citation">(<a href="#ref-chubb1989" role="doc-biblioref">Chubb, Sperling, and Solomon 1989</a>; <a href="#ref-xing2001" role="doc-biblioref">Xing and Heeger 2001</a>)</span>. The repulsive influences of context across visual attributes have been successfully modeled in a normalization framework, whereby neural responses to target inputs are normalized by the features of context <span class="citation">(<a href="#ref-carandini2012" role="doc-biblioref">Carandini and Heeger 2012</a>)</span>.</p>
+<p>Another example of spatial dependencies in perception comes from the literature on <em>lateral interactions</em> <span class="citation">(<a href="#ref-stemmler1995" role="doc-biblioref">Stemmler, Usher, and Niebur 1995</a>)</span>. Psychophysical and electrophysiological evidence converges on a pattern of <em>contextual facilitation</em> in visual processing whereby the presence of proximal stimuli lowers thresholds for the detection of <span class="citation">(<a href="#ref-kapadia1995" role="doc-biblioref">Kapadia et al. 1995</a>; <a href="#ref-freeman2001" role="doc-biblioref">Freeman, Sagi, and Driver 2001</a>; <a href="#ref-freeman2005" role="doc-biblioref">Freeman and Driver 2005</a>)</span> and boosts neural responses to <span class="citation">(<a href="#ref-kapadia1995" role="doc-biblioref">Kapadia et al. 1995</a>; <a href="#ref-ito1999" role="doc-biblioref">Ito and Gilbert 1999</a>)</span> a collinear target stimulus. Crucially, this contextual effect can reverse its direction. When target stimuli are close to detection thresholds, flanking stimuli often facilitate processing <span class="citation">(<a href="#ref-polat1993" role="doc-biblioref">Uri Polat and Sagi 1993</a>)</span>. For high-contrast targets, on the other hand, lateral interactions are, generally, of a suppressive nature <span class="citation">(<a href="#ref-stemmler1995" role="doc-biblioref">Stemmler, Usher, and Niebur 1995</a>)</span>. These characteristics of lateral interactions have been linked with the behavioral relevance of visual context in the real world. Context can be helpful to identify and interpret stimuli near detection thresholds <span class="citation">(<a href="#ref-gilbert2000" role="doc-biblioref">C. Gilbert et al. 2000</a>)</span>. For example, neighboring visual inputs may be useful when the visual system is trying to make sense of blurry or interrupted lines on a faded photograph. Ambiguity is, however, lower for suprathreshold stimuli, so the visual system need not rely on contextual clues for stimulus identification. Instead, <em>contextual inhibition</em> may aid the quick detection of changes in the visual environment through pop out effects for inconsistent stimuli <span class="citation">(<a href="#ref-stemmler1995" role="doc-biblioref">Stemmler, Usher, and Niebur 1995</a>)</span>.</p>
+</div>
+</div>
+<div id="economic-decisions" class="section level3" number="1.2.2">
+<h3><span class="header-section-number">1.2.2</span> Economic Decisions</h3>
+<p>Over the past 40 years, the field of behavioral economics has cataloged instances of “suboptimal” context-dependent economic behavior <span class="citation">(<a href="#ref-thaler2015" role="doc-biblioref">Thaler and Ganser 2015</a>)</span>. From the standpoint of classical economics, these phenomena constituted “anomalies” from rational behavior. Despite the many commonalities between context dependence in perception and economics, the interpretations of the observed patterns of contextual influence have been starkly different between disciplines. In perception research, context dependencies have generally been interpreted in an adaptive light, allowing the perceptual system to take advantage of regularities in the environment to enhance efficiency in sensory processing (e.g. normalization-based neural coding) and resolve perceptual ambiguity (e.g. Bayesian inference). In economics, they have predominantly been considered as instances of irrationality <span class="citation">(<a href="#ref-kahneman1991" role="doc-biblioref">Kahneman, Knetsch, and Thaler 1991</a>)</span> and normative explanations of context-dependent choice behavior have largely been overlooked till fairly recently <span class="citation">(<a href="#ref-loewenstein2008" role="doc-biblioref">Loewenstein, Rick, and Cohen 2008</a>)</span>.</p>
+<div id="temporal-context-1" class="section level4" number="1.2.2.1">
+<h4><span class="header-section-number">1.2.2.1</span> Temporal Context</h4>
+<p>Economic choices regarding monetary rewards are characterized by repulsion effects akin to the temporal context biases documented in perceptual categorization discussed above. When the reward context (as defined by the mean of rewards experienced in previous trials) changes, so too does a participant’s subjective valuation of rewards (as estimated by their choice behavior) shift. In a high-reward context (e.g. average reward = £5), participants generally value the same monetary sum (e.g. £5) less than they do in a low-reward context <span class="citation">(e.g. when average reward = £3, <a href="#ref-rigoli2016" role="doc-biblioref">Rigoli, Friston, and Dolan 2016</a>)</span>. In line with the observed <em>context-dependent valuation</em> behavior of humans, electrophysiological evidence from non-human primates <span class="citation">(<a href="#ref-tremblay1999" role="doc-biblioref">Tremblay and Schultz 1999</a>; <a href="#ref-padoa-schioppa2009" role="doc-biblioref">Padoa-Schioppa 2009</a>)</span> and fMRI evidence from humans <span class="citation">(<a href="#ref-cox2014" role="doc-biblioref">Cox and Kable 2014</a>)</span> in tasks where the reward context is manipulated suggests that value is not encoded in an absolute fashion. Rather, neural value signals are consistent with an encoding scheme whereby stimulus value is processed relative to the recent reward history <span class="citation">(<a href="#ref-rangel2012" role="doc-biblioref">Rangel and Clithero 2012</a>)</span>. Context-dependent subjective value decisions are affected by the mean <span class="citation">(<a href="#ref-rigoli2016" role="doc-biblioref">Rigoli, Friston, and Dolan 2016</a>)</span>, variability <span class="citation">(<a href="#ref-rigoli2016" role="doc-biblioref">Rigoli, Friston, and Dolan 2016</a>)</span>, and skewness <span class="citation">(<a href="#ref-stewart2006" role="doc-biblioref">Stewart, Chater, and Brown 2006</a>)</span> of the distribution of previously experienced rewards in a direct parallel with context-dependent perceptual categorization <span class="citation">(<a href="#ref-parducci1965" role="doc-biblioref">Parducci 1965</a>)</span>. Accordingly, popular computational accounts of this effect appeal to normalization, whereby target values are divisively normalized by a summary characteristic of the distribution of contextual levels of stimulation, such as the average <span class="citation">(as in divisive normalization, <a href="#ref-louie2013" role="doc-biblioref">Louie, Khaw, and Glimcher 2013</a>)</span>, average and variability <span class="citation">(as in the logistic model of subjective value, <a href="#ref-rigoli2019" role="doc-biblioref">Rigoli 2019</a>)</span>, or range <span class="citation">(as in range normalization, <a href="#ref-padoa-schioppa2009" role="doc-biblioref">Padoa-Schioppa 2009</a>)</span>. A more extreme theory of relative value, decision by sampling, argues that the subjective value of a stimulus is entirely driven by the stimulus’ ranked order within the context <span class="citation">(<a href="#ref-stewart2006" role="doc-biblioref">Stewart, Chater, and Brown 2006</a>; <a href="#ref-heng2020" role="doc-biblioref">Heng, Woodford, and Polania 2020</a>)</span>.</p>
+<p>Outside of the lab, this temporal repulsion effect has been observed in the prices of properties rented by individuals who have recently moved to a new city. In line with reference-dependent valuation, those arriving from relatively cheaper cities rent cheaper properties compared to those arriving from more expensive cities, regardless of movers’ objective wealth <span class="citation">(<a href="#ref-simonsohn2006" role="doc-biblioref">Simonsohn and Loewenstein 2006</a>)</span>. In the marketing literature, a related concept is the so called <em>perceptual contrast</em> <span class="citation">(<a href="#ref-lynchjr.1991" role="doc-biblioref">Lynch, Chakravarti, and Mitra 1991</a>; <a href="#ref-tormala2007" role="doc-biblioref">Tormala and Petty 2007</a>; <a href="#ref-lee2010" role="doc-biblioref">M. P. Lee and Suk 2010</a>)</span>, where a consumer’s evaluation of a target good is repulsed away from their evaluation of a decoy good with which they were presented immediately before this. For instance, a retail agent might first show a prospective client a very unattractive property in order to boost the subjective value of a subsequent target property for the client <span class="citation">(<a href="#ref-cialdini1987" role="doc-biblioref">Cialdini 1987</a>)</span>. Naive home buyers are far from the only victims of this bias. Experienced financial professionals are also swayed by contrast effects, such that investors’ evaluations of today’s earnings are inversely proportional to their balance from the previous day <span class="citation">(<a href="#ref-hartzmark2018" role="doc-biblioref">Hartzmark and Shue 2018</a>)</span>.</p>
+<p>Conversely, <em>anchoring</em> refers to the systematic assimilation of subjective evaluations of a target stimulus to an immediately preceding, unrelated and arbitrary reference magnitude <span class="citation">(<a href="#ref-tversky1974" role="doc-biblioref">Amos Tversky and Kahneman 1974</a>)</span>. The induction of an anchoring effect typically requires a comparison between the target evaluation and the anchor. For instance, Ariely and colleagues <span class="citation">(<a href="#ref-ariely2003" role="doc-biblioref">2003</a>)</span> first asked a cohort of MBA students if they would be willing to purchase a variety of consumer goods, such as wine bottles, computer accessories or books, for a price equal to the last two digits of their social security number (the anchor). Then, the researchers asked participants to report the maximum price they would be willing to pay for each good. Value estimates were strongly influenced by the arbitrary anchor; higher anchors inflated the reported price, while lower anchors diminished it. Anchoring has been observed across a variety of domains, including economic valuation, general knowledge and factual estimates, probability estimates, legal judgments, and negotiations <span class="citation">(<a href="#ref-furnham2011" role="doc-biblioref">Furnham and Boo 2011</a>)</span>.</p>
+</div>
+<div id="spatial-context-1" class="section level4" number="1.2.2.2">
+<h4><span class="header-section-number">1.2.2.2</span> Spatial Context</h4>
+<p>A classic example of the influence of spatial context in economics is the <em>decoy effect</em>. It refers to the finding that consumer choices between two equally preferred options, which vary along two dimensions, can be swayed by the addition of a third, generally inferior, alternative. The introduction of a dispreferred, and hence termed decoy, option should not in theory affect the choice between two better alternatives <span class="citation">(<a href="#ref-block1960" role="doc-biblioref">Block and Marschak 1960</a>)</span>. However, value judgments are systematically affected by decoys. First described in 1982 <span class="citation">(<a href="#ref-huber1982" role="doc-biblioref">J. Huber, Payne, and Puto 1982</a>)</span>, the <em>asymmetric dominance</em> (or attraction) effect is produced by a decoy good which is dominated asymmetrically, that is, it is objectively worse than one of the two target options, but not the other. Consumer choice is attracted towards the dominating alternative. For instance, when choosing between a cheap but slow computer and a pricey but fast one, the addition of an alternative which is slightly more expensive than the cheap one yet just as slow boosts preference for the cheap computer.</p>
+<p>In a similar vein, a decoy which is similar to one of the two alternatives repels choice away from it <span class="citation">(<em>similarity effect</em> <a href="#ref-tversky1972" role="doc-biblioref">Amos Tversky 1972</a>)</span> and a decoy which is more extreme than one of the options, but equally preferred, sways choice towards it <span class="citation">(<em>compromise effect</em>, <a href="#ref-simonson1989" role="doc-biblioref">Simonson 1989</a>)</span>. All three classic decoy effects have been replicated in the domain of perceptual decisions, using judgments about the area of rectangle stimuli of varying height and width <span class="citation">(<a href="#ref-trueblood2013" role="doc-biblioref">Trueblood et al. 2013</a>)</span>. This finding suggests that the decoy effect is likely driven by a general principle in decision processing across stimulus domains. In line with this explanation, the most recent computational accounts of the decoy effect have proposed normalization in the neural coding of decision inputs as the driver of the observed context dependencies <span class="citation">(e.g. <a href="#ref-rigoli2017" role="doc-biblioref">Rigoli et al. 2017</a>; <a href="#ref-bushong2021" role="doc-biblioref">Bushong, Rabin, and Schwartzstein 2021</a>; <a href="#ref-daviet2021" role="doc-biblioref">Daviet and Webb 2021</a>; <a href="#ref-landry2021" role="doc-biblioref">Landry and Webb 2021</a>)</span>.</p>
+<p>Another finding in multialternative choice concerns <em>value distraction</em> <span class="citation">(<a href="#ref-louie2013" role="doc-biblioref">Louie, Khaw, and Glimcher 2013</a>)</span>. It occurs when choosing between two items, one of which is preferred by the decision-maker, such that <span class="math inline">\(v(A)&gt;v(B)\)</span>. The value of a third option, inferior to the two original alternatives (<span class="math inline">\(v(D)&lt;v(B)&lt;v(A)\)</span>), affects how often the option with the subjectively highest value is chosen. The probability that both humans and non-human primates would select option A over B falls as the value of the distractor option grows <span class="citation">(in speeded choices as in <a href="#ref-louie2013" role="doc-biblioref">Louie, Khaw, and Glimcher 2013</a>)</span> and reaction times rise <span class="citation">(in slower settings in humans as in <a href="#ref-gluth2020" role="doc-biblioref">Gluth et al. 2020</a>)</span>. This context dependence can be explained in a normalization framework, where choice values are divisively normalized by the (weighted) sum of context. As the distractor value rises, so does the numerator in the normalization procedure, lowering sensitivity to value differences between A and B <span class="citation">(<a href="#ref-louie2013" role="doc-biblioref">Louie, Khaw, and Glimcher 2013</a>)</span>. An alternative account, drawing on a sequential sampling tradition, proposes that high value distractors capture the decision maker’s attention and thus bias behavior <span class="citation">(<a href="#ref-gluth2020" role="doc-biblioref">Gluth et al. 2020</a>)</span>.</p>
+</div>
+</div>
+<div id="parallels" class="section level3" number="1.2.3">
+<h3><span class="header-section-number">1.2.3</span> Parallels</h3>
+<p>Perceptual and economic decisions have largely been the focus of two distinct research streams and this separation is reflected in divergences in methodology. Perception research often employs weak or noisy stimuli, striving to measure (changes to) an observer’s threshold for stimulus detection or discrimination. Perceptual decision making studies typically involve a long, repetitive sequence of choice trials. The large amount of data from each participant allows researchers to parametrically investigate how different levels of an input of interest affect the choices of the observer. By contrast, economic decisions have traditionally been studied via one-shot hypothetical scenarios or vignettes, where each participant provides one (or very few) data points; although recently, psychophysical investigations have become more common in economics.</p>
+<p>Beyond these differences in methodology, by definition, economic and perceptual judgments concern qualitatively vastly different inputs and operations. Perceptual decisions target some existing property of the world, such as the appearance of an object; by contrast, economic decisions deal with the decision maker’s preferences, such as their subjective valuation of the object. The sources of uncertainty are therefore different. In perceptual choice, it is largely the inputs that are uncertain (what is there?); in economic choice, it’s the value function (how much do I value it?).</p>
+<p>Nevertheless, there are also commonalities. Across both domains, the goal of the decision maker is, generally, to compare the available options and select a course of action. The rich, high-dimensional and noisy evidence for each alternative must be integrated and translated into a discrete low-dimensional outcome – the decision <span class="citation">(<a href="#ref-summerfield2020" role="doc-biblioref">Summerfield and Tsetsos 2020</a>)</span>. Indeed, a growing literature attempts to draw bridges between perceptual and economic decisions <span class="citation">(<a href="#ref-summerfield2012" role="doc-biblioref">Summerfield and Tsetsos 2012</a>; <a href="#ref-woodford2020" role="doc-biblioref">Woodford 2020</a>)</span> highlighting commonalities in their behavioral signatures, neural underpinnings and computational models thereof. Another set of parallels between perceptual and economic choices emerges in the ways in which they can be affected by context.</p>
+<p>First, the law of diminishing marginal utility strikingly mirrors the Weber-Fechner law of perception. As the absolute magnitude grows, small changes in magnitude become increasingly difficult to notice. These logarithmic compressions, across both perception and valuation, have been linked with the limited capacity of the neural system <span class="citation">(e.g. <a href="#ref-wei2017" role="doc-biblioref">Wei and Stocker 2017</a>; <a href="#ref-bhui2018" role="doc-biblioref">Bhui and Gershman 2018</a>)</span>. Calibrating sensitivity to the relevant range of magnitudes in the context makes the most efficient use of the limited dynamic range of neural firing. This parallel suggests that there might be a common principle principle guiding the processing of decision-relevant information across the two domains <span class="citation">(<a href="#ref-woodford2020" role="doc-biblioref">Woodford 2020</a>; although interestingly, Max Weber himself was skeptical of this idea, <a href="#ref-weber1975" role="doc-biblioref">Weber and Schneider 1975</a>)</span>. It also gives rise to symmetric contextual biases in the evaluation of magnitudes, effectively scaling percepts and subjective valuations of changes in an imperative stimulus according to its absolute magnitude.</p>
+<p>Judgments across perception and economics also exhibit analogous and robust reference dependence. Information in the temporal context of a decision sets the reference against which incoming inputs are judged. In a context dominated by large (or valuable) objects, a focal stimulus may be perceived (or evaluated) as small (or unappealing). That same stimulus can be judged as large (or valuable) in a context of small (or unappealing) objects. Quantitatively, this pattern of results is captured by a drifting psychometric function which tracks the contextual expectation. Across both domains, other features of the statistics of context affect judgments, including the shape, skewness and dispersion of the distribution of feature magnitudes present <span class="citation">(<a href="#ref-parducci1965" role="doc-biblioref">Parducci 1965</a>; <a href="#ref-rigoli2019" role="doc-biblioref">Rigoli 2019</a>)</span>. Reference-dependent percepts and valuations have commonly been modeled as the result of an adaptive process, whereby neural signals are normalized by the contextual levels of stimulation <span class="citation">(<a href="#ref-webster2015" role="doc-biblioref">Webster 2015</a>; <a href="#ref-rigoli2016" role="doc-biblioref">Rigoli, Friston, and Dolan 2016</a>)</span>. In line with this theoretical view, across the processing hierarchy neural responses to visual stimuli and economic prospects exhibit contextual adaptation <span class="citation">(e.g. <a href="#ref-enroth-cugell1973" role="doc-biblioref">Enroth-Cugell and Shapley 1973</a>; <a href="#ref-cox2014" role="doc-biblioref">Cox and Kable 2014</a>)</span>.</p>
+<p>Reference-dependent judgments are typically repelled <em>away</em> from context. However, another class of contextual biases sways choices across perception and economics <em>towards</em> context. In the domain of perception, judgments about a focal stimulus can be attracted towards the stimulus immediately preceding it if the two stimuli are sufficiently similar and located nearby to one another <span class="citation">(<a href="#ref-liberman2014" role="doc-biblioref">Liberman, Fischer, and Whitney 2014</a>; <a href="#ref-st.john-saaltink2016" role="doc-biblioref">St. John-Saaltink et al. 2016</a>; <a href="#ref-barbosa2020" role="doc-biblioref">Barbosa and Compte 2020</a>)</span>. In the domain of economics, a value estimate of a prospect can be attracted towards a preceding irrelevant quantity if a direct comparison has been drawn between the two. This can be done, for instance, by asking if the subjective value of the prospect exceeds the anchor quantity <span class="citation">(<a href="#ref-tversky1974" role="doc-biblioref">Amos Tversky and Kahneman 1974</a>)</span>. Sequential dependencies across both perceptual and economic judgments can be strengthened in the presence of noise, including increased stimulus-response intervals and scalar variability <span class="citation">(<a href="#ref-papadimitriou2016" role="doc-biblioref">Papadimitriou, White, and Snyder 2016</a>; <a href="#ref-lee2021" role="doc-biblioref">C.-Y. Lee and Morewedge 2021</a>)</span>.</p>
+<p>The influence of spatial context also encompasses repulsive and attractive effects, whose strength and directionality typically interact with the imperative stimulus. For instance, the decoy effect has been documented in multialternative choices about economic prospects and visual stimuli alike <span class="citation">(<a href="#ref-trueblood2013" role="doc-biblioref">Trueblood et al. 2013</a>)</span>. The decoy stimulus can sway choices towards different alternatives depending on the interplay of attribute values of all available options. Similarly, the effect of spatial context on perceptual detection judgments can reverse its direction depending on the characteristics of the focal stimulus <span class="citation">(<a href="#ref-stemmler1995" role="doc-biblioref">Stemmler, Usher, and Niebur 1995</a>)</span>. This pattern of results suggests that inputs are processed differently depending on their interrelationship with other information present in the spatial context. This idea has also been formalized in normalization frameworks where neural responses are modulated by context <span class="citation">(<a href="#ref-xing2001" role="doc-biblioref">Xing and Heeger 2001</a>; <a href="#ref-daviet2021" role="doc-biblioref">Daviet and Webb 2021</a>)</span>.</p>
+<p>The influence of context on human information processing and decision making extends beyond the realms of perception and economics. As early as the 1960s, research documented the dynamics of contextual repulsion and attraction in human affect, motivation, learning, cognition and interpersonal behavior <span class="citation">(<a href="#ref-helson1964" role="doc-biblioref">Helson 1964</a>)</span>. A popular account in perception, adaptation-level theory posits that the human brain processes information across all manner of input domains, including low-level sensory stimulus features and more high-level abstract concepts and characteristics, in a relative, context-dependent manner. The existing parallels in context dependencies across perceptual and economic decision domains lend support to the view that there might be a domain-general information processing mechanism which gives rise to contextual influence.</p>
+</div>
+</div>
+<div id="the-underpinnings-of-context-dependent-choice" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> The Underpinnings of Context-Dependent Choice</h2>
+<p>What drives context dependencies in choice? In biology, there is an important distinction between proximate and ultimate explanations. Proximate causes capture the mechanisms directly driving a behavior (e.g. observed patterns of neural activity or inferred information processing mechanisms); ultimate causes refer to the evolutionary origins that have selected for and shaped the behavior <span class="citation">(<a href="#ref-davies2012" role="doc-biblioref">Davies, Krebs, and West 2012</a>)</span>. Normative perspectives of decision making serve as clues for the selective pressures shaping choice behavior. For this, I will turn back to normative views of decision making to explore the ultimate causes underlying context-dependent choice. This section redefines what constitutes an optimal decision by incorporating assumptions about constraints to the decision making process, including the limited capacity of the brain <span class="citation">(<a href="#ref-sims2003" role="doc-biblioref">Sims 2003</a>)</span> and the inherent noisiness of neural computation <span class="citation">(<a href="#ref-tsetsos2016" role="doc-biblioref">Konstantinos Tsetsos et al. 2016</a>)</span>.</p>
+<div id="neural-constraints-efficiency" class="section level3" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> Neural Constraints &amp; Efficiency</h3>
+<p>The discussion in section <a href="introduction.html#optimality">1.1</a> regarding what constitutes an optimal decision assumed that neural systems are, generally, free from processing constraints. While acknowledging that neural representations are noisy, the models described in sections <a href="introduction.html#optimality-perc">1.1.1</a> and <a href="introduction.html#optimality-econ">1.1.2</a> neglect the limited capacity of the human nervous system and the metabolic costs associated with information processing. In cognitive science, these constraints would be reflected in the cost function of the processing system, which is minimized in efficient calculations. These efficiency considerations are reflected in the <em>efficient coding</em> hypothesis <span class="citation">(<a href="#ref-barlow1961" role="doc-biblioref">Barlow et al. 1961</a>; <a href="#ref-simoncelli2003" role="doc-biblioref">Simoncelli 2003</a>)</span>.</p>
+<p>An efficient strategy for the encoding of sensory information postulates that neural representations should follow the environmental statistics <span class="citation">(<a href="#ref-girshick2011" role="doc-biblioref">Girshick, Landy, and Simoncelli 2011</a>)</span>, resulting in the observed overrepresentation of, for instance, cardinal orientations in early visual cortex <span class="citation">(<a href="#ref-furmanski2000" role="doc-biblioref">Furmanski and Engel 2000</a>; <a href="#ref-li2003" role="doc-biblioref">B. Li, Peterson, and Freeman 2003</a>)</span>. This strategy, whereby the distribution of possible neural states matches the structure of the environment, ensures that sensitivity is maximized for the features which are most likely to occur.</p>
+<p>While the concept of efficient coding is generally associated with evolutionary and developmental neural adaptations to the natural environment <span class="citation">(<a href="#ref-barlow1961" role="doc-biblioref">Barlow et al. 1961</a>)</span>, similar processes are operating at much shorter time-scales, adapting the neural system to the levels of stimulation available in the local context. Light adaptation offers an example of this – adaptation to the contextual level of light dedicates the limited neuronal range (typically ~2 orders of magnitude) to those light intensities which are present in one’s immediate environment, and ensures that visual sensitivity is relatively stable despite changes in light levels of a factor of over 10 billion <span class="citation">(or ~10 orders of magnitude, <a href="#ref-stockman2006" role="doc-biblioref">Stockman et al. 2006</a>)</span>. Adaptation, thus, is an efficient strategy given the biological constraints of the visual system; it does, however, also lead to context dependence in our percepts <span class="citation">(<a href="#ref-webster2015" role="doc-biblioref">Webster 2015</a>)</span>. Theoretic approaches from economics, such as bounded rationality <span class="citation">(<a href="#ref-simon1955" role="doc-biblioref">Simon 1955</a>)</span> and rational inattention <span class="citation">(<a href="#ref-sims2003" role="doc-biblioref">Sims 2003</a>)</span>, have similarly appealed to the constraints of human information processing to explain the mechanisms driving context-dependent economic choice.</p>
+<p>Normalization has been put forth as a “canonical operation” adapting the neural system to current levels of stimulation and promoting the efficiency of neural computation across the processing hierarchy <span class="citation">(<a href="#ref-carandini2012" role="doc-biblioref">Carandini and Heeger 2012</a>)</span>. Generally, normalization theories involve the multiplicative normalization of neural signals by a common factor drawn from, for instance, the activity of a neuronal population. The specific mathematical formulation of the normalization factor is the topic of debate <span class="citation">(e.g. the weighted sum of inputs as in <a href="#ref-carandini2012" role="doc-biblioref">Carandini and Heeger 2012</a>; <a href="#ref-louie2013" role="doc-biblioref">Louie, Khaw, and Glimcher 2013</a>; or the range of inputs as in <a href="#ref-soltani2012" role="doc-biblioref">Soltani, De Martino, and Camerer 2012</a>)</span>. However, a commonality across specific accounts is that normalization concentrates the available range of neural responses around some estimate of what inputs are most likely to occur. This, in turn, ensures that various efficiency considerations are met, including maximizing sensitivity to changes in inputs, boosting sensitivity for behaviorally relevant stimuli, avoiding neural saturation and reducing neural redundancy. Divisive normalization occurs across many different stimulus domains and computational operations, including sensory processing, attention modulation, the encoding of value and multisensory inference <span class="citation">(<a href="#ref-carandini2012" role="doc-biblioref">Carandini and Heeger 2012</a>)</span>.</p>
+<p>Implementation-wise, normalization has been documented across various scales of neural processing. For instance, on the single neuron level, neural responses to a constant stimulus are adapted via inhibiting intrinsic ionic currents based on the neuron’s own activity <span class="citation">(inhibitory feedback loop, <a href="#ref-benda2021" role="doc-biblioref">Benda 2021</a>)</span>. Normalization-based inhibition can also occur via lateral cortical connections, whereby stimuli outside the classic receptive field of a neuron can adjust that neuron’s response to stimulation within its receptive field center <span class="citation">(<a href="#ref-stemmler1995" role="doc-biblioref">Stemmler, Usher, and Niebur 1995</a>)</span>. Similar dynamics have also been observed on the population level, for instance, pooled inhibition in the posterior parietal cortex, which may play a role in decision making pertaining to categorical choices <span class="citation">(<a href="#ref-wang2002" role="doc-biblioref">Wang 2002</a>)</span>.</p>
+</div>
+<div id="behavioral-relevance" class="section level3" number="1.3.2">
+<h3><span class="header-section-number">1.3.2</span> Behavioral Relevance</h3>
+<p>Beyond the case for computational efficiency, relative decision making may also confer some behavioral advantages. The idea that evaluating stimuli relative to the local context is an efficient and evolutionary adaptive strategy is a central tenet of <em>optimal foraging theory</em> <span class="citation">(<a href="#ref-stephens1986" role="doc-biblioref">Stephens and Krebs 1986</a>; <a href="#ref-kolling2012" role="doc-biblioref">Kolling et al. 2012</a>)</span>. An animal should choose whether to exploit a given resource or explore for other resources, depending on an estimate of the current resource value relative to the expected environmental reward. Relative perception and valuation can similarly be argued to serve an adaptive behavioral function.</p>
+<p>Context can also help resolve ambiguities. A popular normative principle for decision making which incorporates the contextual expectation is <em>Bayesian decision theory</em> <span class="citation">(<a href="#ref-mamassian2002" role="doc-biblioref">Mamassian, Landy, and Maloney 2002</a>; <a href="#ref-yuille2006" role="doc-biblioref">Yuille and Kersten 2006</a>)</span>. According to this theoretic account, an ideal observer should evaluate a stimulus taking into account not only the likelihood of the true stimulus magnitude given the noisy internal representation (<span class="math inline">\(\hat{x}\)</span>), but also the prior expectations about the likelihood of this magnitude occurring. These prior expectations are shaped by context and follow the distribution of signals that are currently present or recently experienced. Thus, signal inferences for the true magnitude of <span class="math inline">\({x}\)</span> will be biased towards the contextual expectation. A similar theoretical framework underpins dominating accounts of the contraction bias, appealing to Bayesian inference to explain the finding that the influence of the prior grows with the presence of noise in the judgment process <span class="citation">(<a href="#ref-ashourian2011" role="doc-biblioref">Ashourian and Loewenstein 2011</a>; <a href="#ref-olkkonen2014" role="doc-biblioref">M. Olkkonen, McCarthy, and Allred 2014</a>)</span>.</p>
+<p>In signal detection theory, prior expectations may be incorporated in the parameter value of the decision criterion, which sets a threshold that needs to be exceeded for a detection judgment to occur <span class="citation">(<a href="#ref-green1966" role="doc-biblioref">Green and Swets 1966</a>)</span>. While this can make detection judgments more liberal in a context where the signals of interest dominate, the criterion is classically considered stable over time. <em>Criterion setting theory</em> <span class="citation">(<a href="#ref-treisman1984" role="doc-biblioref">Treisman and Williams 1984</a>; <a href="#ref-lages2010" role="doc-biblioref">Lages and Treisman 2010</a>)</span> is an extension of signal detection theory which instead argues that the location of the decision criterion drifts over time according to two opposite mechanisms which both work to further the behavioral goals of the observer. The probability tracking mechanism is driven by the autocorrelated nature of inputs in the natural environment: if a signal was present at <span class="math inline">\(t-1\)</span>, then it is more likely to be present than not at time <span class="math inline">\(t\)</span>. Hence, it leads to cross-trial attractive serial dependencies. The stabilization mechanism, on the other hand, shifts the criterion towards the central tendency of context in order to ensure that positive and negative detection judgments occur equally often, maximizing information transmission. This, in turn, leads to reference-dependent judgments that are repelled from the statistics of local context.</p>
+<p>The attractive and repulsive dynamics of contextual influence can, thus, be traced back to the interplay of efficiency considerations and the behavioral relevance of context. In the real world, our visual (and conceptual) environment is stable. The neural system explores this regularity to promote efficient computation and increase sensitivity to small changes in the environment <span class="citation">(<a href="#ref-mattar2018" role="doc-biblioref">Mattar et al. 2018</a>)</span>. This efficient adaptation of neural coding produces <em>repulsive</em> influences of context <span class="citation">(<a href="#ref-webster2015" role="doc-biblioref">Webster 2015</a>; <a href="#ref-fritsche2020" role="doc-biblioref">Fritsche, Spaak, and De Lange 2020</a>)</span>. The spatially and temporally correlated nature of inputs, however, also gives rise to <em>attractive</em> contextual effects. A Bayesian observer would exploit the stability of the environment when decoding noisy sensory inputs, with contextual information guiding the prior probability of target signals. Thus, judgments would be attracted towards the statistics of context <span class="citation">(<a href="#ref-vanbergen2019" role="doc-biblioref">Bergen and Jehee 2019</a>; <a href="#ref-fritsche2020" role="doc-biblioref">Fritsche, Spaak, and De Lange 2020</a>)</span>. Taken together, these two opposite efficient strategies can explain the rich (and contradictory) patterns of contextual influence outlined here: negative context dependence is optimal in encoding information, but positive context dependence is optimal when decoding neural signals <span class="citation">(<a href="#ref-fritsche2020" role="doc-biblioref">Fritsche, Spaak, and De Lange 2020</a>)</span>.</p>
+</div>
+</div>
+<div id="thesis-outline" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Thesis Outline</h2>
+<p>Human choices often exhibit stereotyped patterns of context dependence. This is true across decisions pertaining to the evaluation of low-level sensory features, such as visual or auditory properties, and high-level features, such as subjective value, propositional statements and abstract concepts. The parallels between context-dependent choices in perception and economics reviewed in this chapter suggest that there might be a common, domain-general decision mechanism underlying these phenomena <span class="citation">(<a href="#ref-helson1964" role="doc-biblioref">Helson 1964</a>)</span>. The neural underpinning of such a mechanism could stem from neural efficiency considerations. State-of-the-art psychophysical, electrophysiological and neuroimaging evidence suggests that normalization is a feasible candidate domain-general computational scheme.</p>
+<p>This thesis explores specific instances of context-dependent choice behavior. Chapter 2 charts the full parametric space of decoy influence in economic decisions and arbitrates between different formalizations of neural normalization. Chapter 3 investigates and models the functional form of the effect of a distractor stimulus in a perceptual discrimination task. Chapter 4 arbitrates between opposing theoretical accounts of reference-dependent perceptual categorization.</p>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-akaishi2014" class="csl-entry">
+Akaishi, Rei, Kazumasa Umeda, Asako Nagase, and Katsuyuki Sakai. 2014. <span>“Autonomous Mechanism of Internal Choice Estimate Underlies Decision Inertia.”</span> <em>Neuron</em> 81 (1): 195–206. <a href="https://doi.org/10.1016/j.neuron.2013.10.018">https://doi.org/10.1016/j.neuron.2013.10.018</a>.
+</div>
+<div id="ref-ariely2003" class="csl-entry">
+Ariely, Dan, George Loewenstein, and Drazen Prelec. 2003. <span>“<span>‘Coherent Arbitrariness’</span>: Stable Demand Curves Without Stable Preferences.”</span> <em><span>QUARTERLY</span> <span>JOURNAL</span> <span>OF</span> <span>ECONOMICS</span></em>, 33.
+</div>
+<div id="ref-ashourian2011" class="csl-entry">
+Ashourian, Paymon, and Yonatan Loewenstein. 2011. <span>“Bayesian Inference Underlies the Contraction Bias in Delayed Comparison Tasks.”</span> Edited by Adrian G. Dyer. <em><span>PLoS</span> <span>ONE</span></em> 6 (5): e19551. <a href="https://doi.org/10.1371/journal.pone.0019551">https://doi.org/10.1371/journal.pone.0019551</a>.
+</div>
+<div id="ref-barbosa2020" class="csl-entry">
+Barbosa, Joao, and Albert Compte. 2020. <span>“Build-up of Serial Dependence in Color Working Memory.”</span> <em>Scientific Reports</em> 10 (1): 10959. <a href="https://doi.org/10.1038/s41598-020-67861-2">https://doi.org/10.1038/s41598-020-67861-2</a>.
+</div>
+<div id="ref-barlow1961" class="csl-entry">
+Barlow, Horace B et al. 1961. <span>“Possible Principles Underlying the Transformation of Sensory Messages.”</span> <em>Sensory Communication</em> 1 (1).
+</div>
+<div id="ref-benda2021" class="csl-entry">
+Benda, Jan. 2021. <span>“Neural Adaptation.”</span> <em>Current Biology</em> 31 (3): R110–16.
+</div>
+<div id="ref-vanbergen2019" class="csl-entry">
+Bergen, Ruben S van, and Janneke FM Jehee. 2019. <span>“Probabilistic Representation in Human Visual Cortex Reflects Uncertainty in Serial Decisions.”</span> <em>Journal of Neuroscience</em> 39 (41): 8164–76.
+</div>
+<div id="ref-bhui2018" class="csl-entry">
+Bhui, R., and S. J. Gershman. 2018. <span>“Decision by Sampling Implements Efficient Coding of Psychoeconomic Functions.”</span> <em>Psychological Review</em> 125 (6): 985–1001. <a href="https://doi.org/10.1037/rev0000123">https://doi.org/10.1037/rev0000123</a>.
+</div>
+<div id="ref-blakemore1970" class="csl-entry">
+Blakemore, Colin, Roger H. S. Carpenter, and Mark A. Georgeson. 1970. <span>“Lateral Inhibition Between Orientation Detectors in the Human Visual System.”</span> <em>Nature</em> 228 (5266): 37–39. <a href="https://doi.org/10.1038/228037a0">https://doi.org/10.1038/228037a0</a>.
+</div>
+<div id="ref-block1960" class="csl-entry">
+Block, H. D., and J. Marschak. 1960. <span>“Random Orderings and Stochastic Theories of Responses.”</span> <em>Contributions to Probability and Statistics</em>, 97–132.
+</div>
+<div id="ref-bushong2021" class="csl-entry">
+Bushong, Benjamin, Matthew Rabin, and Joshua Schwartzstein. 2021. <span>“A Model of Relative Thinking.”</span> <em>The Review of Economic Studies</em> 88 (1): 162–91. <a href="https://doi.org/10.1093/restud/rdaa055">https://doi.org/10.1093/restud/rdaa055</a>.
+</div>
+<div id="ref-carandini2012" class="csl-entry">
+Carandini, M., and D. J. Heeger. 2012. <span>“Normalization as a Canonical Neural Computation.”</span> <em>Nature Reviews Neuroscience</em> 13 (1): 51–62. <a href="https://doi.org/10.1038/nrn3136">https://doi.org/10.1038/nrn3136</a>.
+</div>
+<div id="ref-chubb1989" class="csl-entry">
+Chubb, Charles, George Sperling, and Joshua A Solomon. 1989. <span>“Texture Interactions Determine Perceived Contrast.”</span> <em>Proc. Natl. Acad. Sci. <span>USA</span></em>, 6.
+</div>
+<div id="ref-cialdini1987" class="csl-entry">
+Cialdini, Robert B. 1987. <em>Influence</em>. Vol. 3. A. Michel Port Harcourt.
+</div>
+<div id="ref-cox2014" class="csl-entry">
+Cox, Karin M., and Joseph W. Kable. 2014. <span>“<span>BOLD</span> Subjective Value Signals Exhibit Robust Range Adaptation.”</span> <em>The Journal of Neuroscience</em> 34 (49): 16533–43. <a href="https://doi.org/10.1523/JNEUROSCI.3927-14.2014">https://doi.org/10.1523/JNEUROSCI.3927-14.2014</a>.
+</div>
+<div id="ref-davies2012" class="csl-entry">
+Davies, Nicholas B, John R Krebs, and Stuart A West. 2012. <em>An Introduction to Behavioural Ecology</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-daviet2021" class="csl-entry">
+Daviet, R., and R. Webb. 2021. <span>“A Double Decoy Experiment to Distinguish Theories of Dominance Effects.”</span> <em>A Double Decoy Experiment to Distinguish Theories of Dominance Effects</em>.
+</div>
+<div id="ref-dutka1988" class="csl-entry">
+Dutka, Jacques. 1988. <span>“On the St. Petersburg Paradox.”</span> <em>Archive for History of Exact Sciences</em> 39 (1): 13–39.
+</div>
+<div id="ref-enroth-cugell1973" class="csl-entry">
+Enroth-Cugell, Christina, and R. M. Shapley. 1973. <span>“Adaptation and Dynamics of Cat Retinal Ganglion Cells.”</span> <em>The Journal of Physiology</em> 233 (2): 271–309. <a href="https://doi.org/10.1113/jphysiol.1973.sp010308">https://doi.org/10.1113/jphysiol.1973.sp010308</a>.
+</div>
+<div id="ref-fischer2014" class="csl-entry">
+Fischer, Jason, and David Whitney. 2014. <span>“Serial Dependence in Visual Perception.”</span> <em>Nature Neuroscience</em> 17 (5): 738–43. <a href="https://doi.org/10.1038/nn.3689">https://doi.org/10.1038/nn.3689</a>.
+</div>
+<div id="ref-foster2011" class="csl-entry">
+Foster, David H. 2011. <span>“Color Constancy.”</span> <em>Vision Research</em> 51 (7): 674–700. <a href="https://doi.org/10.1016/j.visres.2010.09.006">https://doi.org/10.1016/j.visres.2010.09.006</a>.
+</div>
+<div id="ref-freeman2005" class="csl-entry">
+Freeman, Elliot, and Jon Driver. 2005. <span>“Task-Dependent Modulation of Target-Flanker Lateral Interactions in Vision.”</span> <em>Perception &amp; Psychophysics</em> 67 (4): 624–37. <a href="https://doi.org/10.3758/BF03193519">https://doi.org/10.3758/BF03193519</a>.
+</div>
+<div id="ref-freeman2001" class="csl-entry">
+Freeman, Elliot, Dov Sagi, and Jon Driver. 2001. <span>“Lateral Interactions Between Targets and Flankers in Low-Level Vision Depend on Attention to the Flankers.”</span> <em>Nature Neuroscience</em> 4 (10): 1032–36. <a href="https://doi.org/10.1038/nn728">https://doi.org/10.1038/nn728</a>.
+</div>
+<div id="ref-fritsche2020" class="csl-entry">
+Fritsche, Matthias, Eelke Spaak, and Floris P De Lange. 2020. <span>“A Bayesian and Efficient Observer Model Explains Concurrent Attractive and Repulsive History Biases in Visual Perception.”</span> <em>Elife</em> 9: e55389.
+</div>
+<div id="ref-furmanski2000" class="csl-entry">
+Furmanski, Christopher S., and Stephen A. Engel. 2000. <span>“An Oblique Effect in Human Primary Visual Cortex.”</span> <em>Nature Neuroscience</em> 3 (6): 535–36. <a href="https://doi.org/10.1038/75702">https://doi.org/10.1038/75702</a>.
+</div>
+<div id="ref-furnham2011" class="csl-entry">
+Furnham, Adrian, and Hua Chu Boo. 2011. <span>“A Literature Review of the Anchoring Effect.”</span> <em>The Journal of Socio-Economics</em> 40 (1): 35–42. https://doi.org/<a href="https://doi.org/10.1016/j.socec.2010.10.008">https://doi.org/10.1016/j.socec.2010.10.008</a>.
+</div>
+<div id="ref-gilbert2000" class="csl-entry">
+Gilbert, Charles, Minami Ito, Mitesh Kapadia, and Gerald Westheimer. 2000. <span>“Interactions Between Attention, Context and Learning in Primary Visual Cortex.”</span> <em>Vision Research</em> 40 (10): 1217–26. <a href="https://doi.org/10.1016/S0042-6989(99)00234-5">https://doi.org/10.1016/S0042-6989(99)00234-5</a>.
+</div>
+<div id="ref-girshick2011" class="csl-entry">
+Girshick, Ahna R, Michael S Landy, and Eero P Simoncelli. 2011. <span>“Cardinal Rules: Visual Orientation Perception Reflects Knowledge of Environmental Statistics.”</span> <em>Nature Neuroscience</em> 14 (7): 926–32. <a href="https://doi.org/10.1038/nn.2831">https://doi.org/10.1038/nn.2831</a>.
+</div>
+<div id="ref-gluth2020" class="csl-entry">
+Gluth, Sebastian, Nadja Kern, Maria Kortmann, and Cécile L. Vitali. 2020. <span>“Value-Based Attention but Not Divisive Normalization Influences Decisions with Multiple Alternatives.”</span> <em>Nature Human Behaviour</em> 4 (6): 634–45. <a href="https://doi.org/10.1038/s41562-020-0822-0">https://doi.org/10.1038/s41562-020-0822-0</a>.
+</div>
+<div id="ref-green1966" class="csl-entry">
+Green, David Marvin, and John A Swets. 1966. <em>Signal Detection Theory and Psychophysics</em>. Vol. 1. Wiley New York.
+</div>
+<div id="ref-hartzmark2018" class="csl-entry">
+Hartzmark, Samuel M., and Kelly Shue. 2018. <span>“A Tough Act to Follow: Contrast Effects in Financial Markets: A Tough Act to Follow.”</span> <em>The Journal of Finance</em> 73 (4): 1567–1613. <a href="https://doi.org/10.1111/jofi.12685">https://doi.org/10.1111/jofi.12685</a>.
+</div>
+<div id="ref-helson1947" class="csl-entry">
+Helson, Harry. 1947. <span>“Adaptation-Level as Frame of Reference for Prediction of Psychophysical Data.”</span> <em>The American Journal of Psychology</em> 60 (1): 1. <a href="https://doi.org/10.2307/1417326">https://doi.org/10.2307/1417326</a>.
+</div>
+<div id="ref-helson1964" class="csl-entry">
+———. 1964. <span>“Adaptation-Level Theory: An Experimental and Systematic Approach to Behavior.”</span>
+</div>
+<div id="ref-heng2020" class="csl-entry">
+Heng, Joseph A, Michael Woodford, and Rafael Polania. 2020. <span>“Efficient Sampling and Noisy Decisions.”</span> <em><span>eLife</span></em> 9 (September): e54962. <a href="https://doi.org/10.7554/eLife.54962">https://doi.org/10.7554/eLife.54962</a>.
+</div>
+<div id="ref-hollingworth1910" class="csl-entry">
+Hollingworth, H. L. 1910. <span>“The Central Tendency of Judgment,”</span> 10.
+</div>
+<div id="ref-huber1982" class="csl-entry">
+Huber, J., J. W. Payne, and C. P. Puto. 1982. <span>“Adding Asymmetrically Dominated Alternatives: Violations of Regularity and the Similarity Hypothesis.”</span> <em>Journal of Consumer Research</em> 9 (1): 90. <a href="https://doi.org/10.1086/208899">https://doi.org/10.1086/208899</a>.
+</div>
+<div id="ref-ito1999" class="csl-entry">
+Ito, Minami, and Charles Gilbert. 1999. <span>“Attention Modulates Contextual Influences in the Primary Visual Cortex of Alert Monkeys.”</span> <em>Neuron</em> 22 (3): 593–604. <a href="https://doi.org/10.1016/S0896-6273(00)80713-8">https://doi.org/10.1016/S0896-6273(00)80713-8</a>.
+</div>
+<div id="ref-jou2004" class="csl-entry">
+Jou, Jerwen, Gary E. Leka, Dawn M. Rogers, and Yolanda E. Matus. 2004. <span>“Contraction Bias in Memorial Quantifying Judgment: Does It Come from a Stable Compressed Memory Representation or a Dynamic Adaptation Process?”</span> <em>The American Journal of Psychology</em> 117 (4): 543. <a href="https://doi.org/10.2307/4148991">https://doi.org/10.2307/4148991</a>.
+</div>
+<div id="ref-juechems2021" class="csl-entry">
+Juechems, Keno, Jan Balaguer, Bernhard Spitzer, and Christopher Summerfield. 2021. <span>“Optimal Utility and Probability Functions for Agents with Finite Computational Precision.”</span> <em>Proceedings of the National Academy of Sciences</em> 118 (2).
+</div>
+<div id="ref-kahneman1991" class="csl-entry">
+Kahneman, Daniel, Jack L Knetsch, and Richard H Thaler. 1991. <span>“Anomalies: The Endowment Effect, Loss Aversion, and Status Quo Bias.”</span> <em>Journal of Economic Perspectives</em>, 128.
+</div>
+<div id="ref-kahneman1979" class="csl-entry">
+Kahneman, Daniel, and Amos Tversky. 1979. <span>“Prospect Theory: An Analysis of Decision Under Risk.”</span> <em>Econometrica</em> 47 (2): 263. <a href="https://doi.org/10.2307/1914185">https://doi.org/10.2307/1914185</a>.
+</div>
+<div id="ref-kapadia1995" class="csl-entry">
+Kapadia, Mitesh K., Minami Ito, Charles D. Gilbert, and Gerald Westheimer. 1995. <span>“Improvement in Visual Sensitivity by Changes in Local Context: Parallel Studies in Human Observers and in V1 of Alert Monkeys.”</span> <em>Neuron</em> 15 (4): 843–56. <a href="https://doi.org/10.1016/0896-6273(95)90175-2">https://doi.org/10.1016/0896-6273(95)90175-2</a>.
+</div>
+<div id="ref-kiyonaga2017" class="csl-entry">
+Kiyonaga, Anastasia, Jason M. Scimeca, Daniel P. Bliss, and David Whitney. 2017. <span>“Serial Dependence Across Perception, Attention, and Memory.”</span> <em>Trends in Cognitive Sciences</em> 21 (7): 493–97. <a href="https://doi.org/10.1016/j.tics.2017.04.011">https://doi.org/10.1016/j.tics.2017.04.011</a>.
+</div>
+<div id="ref-kolling2012" class="csl-entry">
+Kolling, Nils, Timothy E. J. Behrens, Rogier B. Mars, and Matthew F. S. Rushworth. 2012. <span>“Neural Mechanisms of Foraging.”</span> <em>Science</em> 336 (6077): 95–98. <a href="https://doi.org/10.1126/science.1216930">https://doi.org/10.1126/science.1216930</a>.
+</div>
+<div id="ref-lages1998" class="csl-entry">
+Lages, Martin, and Michel Treisman. 1998. <span>“Spatial Frequency Discrimination: Visual Long-Term Memory or Criterion Setting?”</span> <em>Vision Research</em> 38 (4): 557–72. <a href="https://doi.org/10.1016/S0042-6989(97)88333-2">https://doi.org/10.1016/S0042-6989(97)88333-2</a>.
+</div>
+<div id="ref-lages2010" class="csl-entry">
+———. 2010. <span>“A Criterion Setting Theory of Discrimination Learning That Accounts for Anisotropies and Context Effects.”</span> <em>Seeing and Perceiving</em> 23 (5): 401–34. <a href="https://doi.org/10.1163/187847510X541117">https://doi.org/10.1163/187847510X541117</a>.
+</div>
+<div id="ref-land1983" class="csl-entry">
+Land, Edwin H. 1983. <span>“Recent Advances in Retinex Theory and Some Implications for Cortical Computations: Color Vision and the Natural Image.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 80 (16): 5163.
+</div>
+<div id="ref-landry2021" class="csl-entry">
+Landry, Peter, and Ryan Webb. 2021. <span>“Pairwise Normalization: A Neuroeconomic Theory of Multi-Attribute Choice.”</span> <em>Journal of Economic Theory</em> 193 (April): 105221. <a href="https://doi.org/10.1016/j.jet.2021.105221">https://doi.org/10.1016/j.jet.2021.105221</a>.
+</div>
+<div id="ref-lee2021" class="csl-entry">
+Lee, Chang-Yuan, and Carey K Morewedge. 2021. <span>“Noise Increases Anchoring Effects,”</span> 55.
+</div>
+<div id="ref-lee2010" class="csl-entry">
+Lee, Michelle P., and Kwanho Suk. 2010. <span>“Disambiguating the Role of Ambiguity in Perceptual Assimilation and Contrast Effects.”</span> <em>Journal of Consumer Research</em> 36 (5): 890–97. <a href="https://doi.org/10.1086/605299">https://doi.org/10.1086/605299</a>.
+</div>
+<div id="ref-levari2018" class="csl-entry">
+Levari, David E., Daniel T. Gilbert, Timothy D. Wilson, Beau Sievers, David M. Amodio, and Thalia Wheatley. 2018. <span>“Prevalence-Induced Concept Change in Human Judgment.”</span> <em>Science</em> 360 (6396): 1465–67. <a href="https://doi.org/10.1126/science.aap8731">https://doi.org/10.1126/science.aap8731</a>.
+</div>
+<div id="ref-li2003" class="csl-entry">
+Li, Baowang, Matthew R. Peterson, and Ralph D. Freeman. 2003. <span>“Oblique Effect: A Neural Basis in the Visual Cortex.”</span> <em>Journal of Neurophysiology</em> 90 (1): 204–17. <a href="https://doi.org/10.1152/jn.00954.2002">https://doi.org/10.1152/jn.00954.2002</a>.
+</div>
+<div id="ref-liberman2014" class="csl-entry">
+Liberman, Alina, Jason Fischer, and David Whitney. 2014. <span>“Serial Dependence in the Perception of Faces.”</span> <em>Current Biology</em> 24 (21): 2569–74. <a href="https://doi.org/10.1016/j.cub.2014.09.025">https://doi.org/10.1016/j.cub.2014.09.025</a>.
+</div>
+<div id="ref-loewenstein2008" class="csl-entry">
+Loewenstein, George, Scott Rick, and Jonathan D. Cohen. 2008. <span>“Neuroeconomics.”</span> <em>Annual Review of Psychology</em> 59 (1): 647–72. <a href="https://doi.org/10.1146/annurev.psych.59.103006.093710">https://doi.org/10.1146/annurev.psych.59.103006.093710</a>.
+</div>
+<div id="ref-louie2013" class="csl-entry">
+Louie, K., M. W. Khaw, and P. W. Glimcher. 2013. <span>“Normalization Is a General Neural Mechanism for Context-Dependent Decision Making.”</span> <em>Proceedings of the National Academy of Sciences</em> 110 (15): 6139–44. <a href="https://doi.org/10.1073/pnas.1217854110">https://doi.org/10.1073/pnas.1217854110</a>.
+</div>
+<div id="ref-luce1959" class="csl-entry">
+Luce, R. Duncan. 1959. <span>“On the Possible Psychophysical Laws.”</span> <em>Psychological Review</em> 66 (2): 81–95. <a href="https://doi.org/10.1037/h0043178">https://doi.org/10.1037/h0043178</a>.
+</div>
+<div id="ref-lynchjr.1991" class="csl-entry">
+Lynch, John G., Jr., Dipankar Chakravarti, and Anusree Mitra. 1991. <span>“Contrast Effects in Consumer Judgments: Changes in Mental Representations or in the Anchoring of Rating Scales?”</span> <em>Journal of Consumer Research</em> 18 (3): 284. <a href="https://doi.org/10.1086/209260">https://doi.org/10.1086/209260</a>.
+</div>
+<div id="ref-mamassian2002" class="csl-entry">
+Mamassian, Pascal, Michael Landy, and Laurence T Maloney. 2002. <span>“Bayesian Modelling of Visual Perception.”</span> <em>Probabilistic Models of the Brain</em>, 13–36.
+</div>
+<div id="ref-mattar2018" class="csl-entry">
+Mattar, Marcelo G, Maria Olkkonen, Russell A Epstein, and Geoffrey K Aguirre. 2018. <span>“Adaptation Decorrelates Shape Representations.”</span> <em>Nature Communications</em> 9 (1): 1–9.
+</div>
+<div id="ref-mcfadden1981" class="csl-entry">
+McFadden, Daniel. 1981. <span>“Econometric Models of Probabilistic Choice.”</span> <em>Structural Analysis of Discrete Data with Econometric Applications</em> 198272.
+</div>
+<div id="ref-morgan2000" class="csl-entry">
+Morgan, M. J, S. N. J Watamaniuk, and S. P McKee. 2000. <span>“The Use of an Implicit Standard for Measuring Discrimination Thresholds.”</span> <em>Vision Research</em> 40 (17): 2341–49. <a href="https://doi.org/10.1016/S0042-6989(00)00093-6">https://doi.org/10.1016/S0042-6989(00)00093-6</a>.
+</div>
+<div id="ref-mosteller1951" class="csl-entry">
+Mosteller, Frederick, and Philip Nogee. 1951. <span>“An Experimental Measurement of Utility,”</span> 35.
+</div>
+<div id="ref-olkkonen2014a" class="csl-entry">
+Olkkonen, Maria, and Sarah R. Allred. 2014. <span>“Short-Term Memory Affects Color Perception in Context.”</span> Edited by Floris P. de Lange. <em><span>PLoS</span> <span>ONE</span></em> 9 (1): e86488. <a href="https://doi.org/10.1371/journal.pone.0086488">https://doi.org/10.1371/journal.pone.0086488</a>.
+</div>
+<div id="ref-olkkonen2014" class="csl-entry">
+Olkkonen, M., P. F. McCarthy, and S. R. Allred. 2014. <span>“The Central Tendency Bias in Color Perception: Effects of Internal and External Noise.”</span> <em>Journal of Vision</em> 14 (11): 5–5. <a href="https://doi.org/10.1167/14.11.5">https://doi.org/10.1167/14.11.5</a>.
+</div>
+<div id="ref-padoa-schioppa2009" class="csl-entry">
+Padoa-Schioppa, C. 2009. <span>“Range-Adapting Representation of Economic Value in the Orbitofrontal Cortex.”</span> <em>Journal of Neuroscience</em> 29 (44): 14004–14. <a href="https://doi.org/10.1523/JNEUROSCI.3751-09.2009">https://doi.org/10.1523/JNEUROSCI.3751-09.2009</a>.
+</div>
+<div id="ref-papadimitriou2016" class="csl-entry">
+Papadimitriou, Charalampos, Robert L. White, and Lawrence H. Snyder. 2016. <span>“Ghosts in the Machine <span>II</span>: Neural Correlates of Memory Interference from the Previous Trial.”</span> <em>Cerebral Cortex</em>, April, bhw106. <a href="https://doi.org/10.1093/cercor/bhw106">https://doi.org/10.1093/cercor/bhw106</a>.
+</div>
+<div id="ref-parducci1965" class="csl-entry">
+Parducci, Allen. 1965. <span>“Category Judgment: A Range-Frequency Model.”</span> <em>Psychological Review</em> 72 (6): 407–18. <a href="https://doi.org/10.1037/h0022602">https://doi.org/10.1037/h0022602</a>.
+</div>
+<div id="ref-polania2018" class="csl-entry">
+Polania, Rafael, Michael Woodford, and Christian Ruff. 2018. <span>“Efficient Coding of Subjective Value,”</span> June. <a href="https://doi.org/10.1101/358317">https://doi.org/10.1101/358317</a>.
+</div>
+<div id="ref-polat1993" class="csl-entry">
+Polat, Uri, and Dov Sagi. 1993. <span>“Lateral Interactions Between Spatial Channels: Suppression and Facilitation Revealed by Lateral Masking Experiments.”</span> <em>Vision Research</em> 33 (7): 993–99. <a href="https://doi.org/10.1016/0042-6989(93)90081-7">https://doi.org/10.1016/0042-6989(93)90081-7</a>.
+</div>
+<div id="ref-rangel2012" class="csl-entry">
+Rangel, Antonio, and John A Clithero. 2012. <span>“Value Normalization in Decision Making: Theory and Evidence.”</span> <em>Current Opinion in Neurobiology</em> 22 (6): 970–81. <a href="https://doi.org/10.1016/j.conb.2012.07.011">https://doi.org/10.1016/j.conb.2012.07.011</a>.
+</div>
+<div id="ref-rigoli2019" class="csl-entry">
+Rigoli, Francesco. 2019. <span>“Reference Effects on Decision-Making Elicited by Previous Rewards.”</span> <em>Cognition</em> 192 (November): 104034. <a href="https://doi.org/10.1016/j.cognition.2019.104034">https://doi.org/10.1016/j.cognition.2019.104034</a>.
+</div>
+<div id="ref-rigoli2016" class="csl-entry">
+Rigoli, Francesco, Karl J. Friston, and Raymond J. Dolan. 2016. <span>“Neural Processes Mediating Contextual Influences on Human Choice Behaviour.”</span> <em>Nature Communications</em> 7 (1): 12416. <a href="https://doi.org/10.1038/ncomms12416">https://doi.org/10.1038/ncomms12416</a>.
+</div>
+<div id="ref-rigoli2017" class="csl-entry">
+Rigoli, Francesco, Christoph Mathys, Karl J. Friston, and Raymond J. Dolan. 2017. <span>“A Unifying Bayesian Account of Contextual Effects in Value-Based Choice.”</span> <em><span>PLOS</span> Computational Biology</em> 13 (10): e1005769.
+</div>
+<div id="ref-simon1955" class="csl-entry">
+Simon, Herbert A. 1955. <span>“A Behavioral Model of Rational Choice.”</span> <em>The Quarterly Journal of Economics</em> 69 (1): 99–118.
+</div>
+<div id="ref-simoncelli2003" class="csl-entry">
+Simoncelli, Eero P. 2003. <span>“Vision and the Statistics of the Visual Environment.”</span> <em>Current Opinion in Neurobiology</em> 13 (2): 144–49. <a href="https://doi.org/10.1016/S0959-4388(03)00047-3">https://doi.org/10.1016/S0959-4388(03)00047-3</a>.
+</div>
+<div id="ref-simonsohn2006" class="csl-entry">
+Simonsohn, Uri, and George Loewenstein. 2006. <span>“Mistake: The Effect of Previously Encountered Prices on Current Housing Demand.”</span> <em>The Economic Journal</em> 116 (508): 175–99. <a href="https://doi.org/10.1111/j.1468-0297.2006.01052.x">https://doi.org/10.1111/j.1468-0297.2006.01052.x</a>.
+</div>
+<div id="ref-simonson1989" class="csl-entry">
+Simonson, Itamar. 1989. <span>“Choice Based on Reasons: The Case of Attraction and Compromise Effects.”</span> <em>Journal of Consumer Research</em> 16 (2): 158. <a href="https://doi.org/10.1086/209205">https://doi.org/10.1086/209205</a>.
+</div>
+<div id="ref-sims2003" class="csl-entry">
+Sims, Christopher A. 2003. <span>“Implications of Rational Inattention.”</span> <em>Journal of Monetary Economics</em> 50 (3): 665–90. <a href="https://doi.org/10.1016/S0304-3932(03)00029-1">https://doi.org/10.1016/S0304-3932(03)00029-1</a>.
+</div>
+<div id="ref-smithson2005" class="csl-entry">
+Smithson, H. E. 2005. <span>“Sensory, Computational and Cognitive Components of Human Colour Constancy.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 360 (1458): 1329–46. <a href="https://doi.org/10.1098/rstb.2005.1633">https://doi.org/10.1098/rstb.2005.1633</a>.
+</div>
+<div id="ref-soltani2012" class="csl-entry">
+Soltani, Alireza, Benedetto De Martino, and Colin Camerer. 2012. <span>“A Range-Normalization Model of Context-Dependent Choice: A New Model and Evidence.”</span> Edited by Laurence T. Maloney. <em><span>PLoS</span> Computational Biology</em> 8 (7): e1002607. <a href="https://doi.org/10.1371/journal.pcbi.1002607">https://doi.org/10.1371/journal.pcbi.1002607</a>.
+</div>
+<div id="ref-st.john-saaltink2016" class="csl-entry">
+St. John-Saaltink, Elexa, Peter Kok, Hakwan C. Lau, and Floris P. de Lange. 2016. <span>“Serial Dependence in Perceptual Decisions Is Reflected in Activity Patterns in Primary Visual Cortex.”</span> <em>The Journal of Neuroscience</em> 36 (23): 6186–92. <a href="https://doi.org/10.1523/JNEUROSCI.4390-15.2016">https://doi.org/10.1523/JNEUROSCI.4390-15.2016</a>.
+</div>
+<div id="ref-steiner2016" class="csl-entry">
+Steiner, Jakub, and Colin Stewart. 2016. <span>“Perceiving Prospects Properly.”</span> <em>American Economic Review</em> 106 (7): 1601–31.
+</div>
+<div id="ref-stemmler1995" class="csl-entry">
+Stemmler, M, M Usher, and E Niebur. 1995. <span>“Lateral Interactions in Primary Visual Cortex: A Model Bridging Physiology and Psychophysics.”</span> <em>Science</em> 269 (5232): 1877–80. <a href="https://doi.org/10.1126/science.7569930">https://doi.org/10.1126/science.7569930</a>.
+</div>
+<div id="ref-stephens1986" class="csl-entry">
+Stephens, David W, and John R Krebs. 1986. <em>Foraging Theory</em>. Princeton University Press.
+</div>
+<div id="ref-stewart2006" class="csl-entry">
+Stewart, Neil, Nick Chater, and Gordon D. A. Brown. 2006. <span>“Decision by Sampling.”</span> <em>Cognitive Psychology</em> 53 (1): 1–26. <a href="https://doi.org/10.1016/j.cogpsych.2005.10.003">https://doi.org/10.1016/j.cogpsych.2005.10.003</a>.
+</div>
+<div id="ref-stockman2006" class="csl-entry">
+Stockman, A., M. Langendorfer, H. E. Smithson, and L. T. Sharpe. 2006. <span>“Human Cone Light Adaptation: From Behavioral Measurements to Molecular Mechanisms.”</span> <em>Journal of Vision</em> 6 (11): 5–5. <a href="https://doi.org/10.1167/6.11.5">https://doi.org/10.1167/6.11.5</a>.
+</div>
+<div id="ref-summerfield2012" class="csl-entry">
+Summerfield, Christopher, and Konstantinos Tsetsos. 2012. <span>“Building Bridges Between Perceptual and Economic Decision-Making: Neural and Computational Mechanisms.”</span> <em>Frontiers in Neuroscience</em> 6. <a href="https://doi.org/10.3389/fnins.2012.00070">https://doi.org/10.3389/fnins.2012.00070</a>.
+</div>
+<div id="ref-summerfield2020" class="csl-entry">
+———. 2020. <span>“Rationality and Efficiency in Human Decision-Making.”</span> <em>The Cognitive Neurosciences</em>, 427.
+</div>
+<div id="ref-sun2012" class="csl-entry">
+Sun, John Z, Grace I Wang, Vivek K Goyal, and Lav R Varshney. 2012. <span>“A Framework for Bayesian Optimality of Psychophysical Laws.”</span> <em>Journal of Mathematical Psychology</em> 56 (6): 495–501.
+</div>
+<div id="ref-taubert2016" class="csl-entry">
+Taubert, Jessica, David Alais, and David Burr. 2016. <span>“Different Coding Strategies for the Perception of Stable and Changeable Facial Attributes.”</span> <em>Scientific Reports</em> 6 (1): 32239. <a href="https://doi.org/10.1038/srep32239">https://doi.org/10.1038/srep32239</a>.
+</div>
+<div id="ref-thaler2015" class="csl-entry">
+Thaler, Richard H, and LJ Ganser. 2015. <span>“Misbehaving: The Making of Behavioral Economics.”</span>
+</div>
+<div id="ref-tormala2007" class="csl-entry">
+Tormala, Zakary L., and Richard E. Petty. 2007. <span>“Contextual Contrast and Perceived Knowledge: Exploring the Implications for Persuasion.”</span> <em>Journal of Experimental Social Psychology</em> 43 (1): 17–30. <a href="https://doi.org/10.1016/j.jesp.2005.11.007">https://doi.org/10.1016/j.jesp.2005.11.007</a>.
+</div>
+<div id="ref-treisman1984" class="csl-entry">
+Treisman, Michel, and Thomas C Williams. 1984. <span>“A Theory of Criterion Setting with an Application to Sequential Dependencies.”</span> <em>Psychological Review</em>, 44.
+</div>
+<div id="ref-tremblay1999" class="csl-entry">
+Tremblay, Léon, and Wolfram Schultz. 1999. <span>“Relative Reward Preference in Primate Orbitofrontal Cortex.”</span> <em>Nature</em> 398 (6729): 704–8. <a href="https://doi.org/10.1038/19525">https://doi.org/10.1038/19525</a>.
+</div>
+<div id="ref-trueblood2013" class="csl-entry">
+Trueblood, J. S., S. D. Brown, A. Heathcote, and J. R. Busemeyer. 2013. <span>“Not Just for Consumers: Context Effects Are Fundamental to Decision Making.”</span> <em>Psychological Science</em> 24 (6): 901–8. <a href="https://doi.org/10.1177/0956797612464241">https://doi.org/10.1177/0956797612464241</a>.
+</div>
+<div id="ref-tsetsos2016" class="csl-entry">
+Tsetsos, Konstantinos, R. Moran, James Moreland, Nick Chater, Marius Usher, and Christopher Summerfield. 2016. <span>“Economic Irrationality Is Optimal During Noisy Decision Making.”</span> <em>Proceedings of the National Academy of Sciences</em> 113 (11): 3102–7. <a href="https://doi.org/10.1073/pnas.1519157113">https://doi.org/10.1073/pnas.1519157113</a>.
+</div>
+<div id="ref-tversky1972" class="csl-entry">
+Tversky, Amos. 1972. <span>“Choice by Elimination.”</span> <em>Journal of Mathematical Psychology</em> 9 (4): 341–67.
+</div>
+<div id="ref-tversky1974" class="csl-entry">
+Tversky, Amos, and Daniel Kahneman. 1974. <span>“Judgment Under Uncertainty: Heuristics and Biases.”</span> <em>Science</em> 185 (4157): 1124–31.
+</div>
+<div id="ref-vonneumann1944" class="csl-entry">
+Von Neumann, John, and Oskar Morgenstern. 1944. <em>Theory of Games and Economic Behavior</em>. Princeton university press.
+</div>
+<div id="ref-wang2002" class="csl-entry">
+Wang, Xiao-Jing. 2002. <span>“Probabilistic Decision Making by Slow Reverberation in Cortical Circuits.”</span> <em>Neuron</em> 36 (5): 955–68. <a href="https://doi.org/10.1016/S0896-6273(02)01092-9">https://doi.org/10.1016/S0896-6273(02)01092-9</a>.
+</div>
+<div id="ref-weber1975" class="csl-entry">
+Weber, Max, and Louis Schneider. 1975. <span>“Marginal Utility Theory and" the Fundamental Law of Psychophysics".”</span> <em>Social Science Quarterly</em>, 21–36.
+</div>
+<div id="ref-webster2011" class="csl-entry">
+Webster, M. A. 2011. <span>“Adaptation and Visual Coding.”</span> <em>Journal of Vision</em> 11 (5): 3–3. <a href="https://doi.org/10.1167/11.5.3">https://doi.org/10.1167/11.5.3</a>.
+</div>
+<div id="ref-webster2015" class="csl-entry">
+———. 2015. <span>“Visual Adaptation.”</span> <em>Annual Review of Vision Science</em> 1 (1): 547–67. <a href="https://doi.org/10.1146/annurev-vision-082114-035509">https://doi.org/10.1146/annurev-vision-082114-035509</a>.
+</div>
+<div id="ref-wei2017" class="csl-entry">
+Wei, Xue-Xin, and Alan A. Stocker. 2017. <span>“Lawful Relation Between Perceptual Bias and Discriminability.”</span> <em>Proceedings of the National Academy of Sciences</em> 114 (38): 10244–49. <a href="https://doi.org/10.1073/pnas.1619153114">https://doi.org/10.1073/pnas.1619153114</a>.
+</div>
+<div id="ref-welbourne2015" class="csl-entry">
+Welbourne, Lauren E., Antony B. Morland, and Alex R. Wade. 2015. <span>“Human Colour Perception Changes Between Seasons.”</span> <em>Current Biology</em> 25 (15): R646–47. <a href="https://doi.org/10.1016/j.cub.2015.06.030">https://doi.org/10.1016/j.cub.2015.06.030</a>.
+</div>
+<div id="ref-woodford2020" class="csl-entry">
+Woodford, Michael. 2020. <span>“Modeling Imprecision in Perception, Valuation, and Choice,”</span> 23.
+</div>
+<div id="ref-xing2001" class="csl-entry">
+Xing, J., and D. J. Heeger. 2001. <span>“Measurement and Modeling of Center-Surround Suppression and Enhancement.”</span> <em>Vision Research</em> 41 (5): 571–83. <a href="https://doi.org/10.1016/S0042-6989(00)00270-4">https://doi.org/10.1016/S0042-6989(00)00270-4</a>.
+</div>
+<div id="ref-yuille2006" class="csl-entry">
+Yuille, Alan, and Daniel Kersten. 2006. <span>“Vision as Bayesian Inference: Analysis by Synthesis?”</span> <em>Trends in Cognitive Sciences</em> 10 (7): 301–8. <a href="https://doi.org/10.1016/j.tics.2006.05.002">https://doi.org/10.1016/j.tics.2006.05.002</a>.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="decoy.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/ulyngs/oxforddown/tree/master/01-introduction.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
