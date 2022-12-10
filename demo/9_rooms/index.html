@@ -90,9 +90,9 @@
   device_type = detectDevice(); 
   console.log(device_type)
   if (device_type.mobile==true || device_type.largeMobile==true) 
-    {mobile = 1; goWebsite(html_instructions_m); } 
+    {mobile = 1; startExperiment(); } 
   else 
-    {mobile = 0; goWebsite(html_instructions); }
+    {mobile = 0; startExperiment(); }
   console.log(mobile)
 
   function detectDevice(){
