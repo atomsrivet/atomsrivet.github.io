@@ -3,16 +3,21 @@ plugins:
 - jekyll-remote-theme 
 
 title: Tsvetomira Dumbalska
+author: Tsvetomira Dumbalska
+email: tsvetomira.dumbalska@psy.ox.ac.uk
+description: > # this means to ignore newlines until "show_exerpts:"
+show_excerpts: true # set to true to show excerpts on the homepage
 
 
 plainwhite:
   name: Tsvetomira Dumbalska
   tagline: Cognitive scientist @ University of Oxford
   date_format: "%b %-d, %Y"
-
+  sitemap: true
+  dark_mode: true
   social_links:
     github: atomsrivet
 
   portfolio_image:  "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
 
-  dark_mode: true
+  
