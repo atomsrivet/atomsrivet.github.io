@@ -3,7 +3,7 @@ layout: default
 
 ---
 
-#### <center> <a href="https://www.psy.ox.ac.uk/people/tsvetomira-dumbalska">Research</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://atomsrivet.github.io/thesis/">Thesis</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://atomsrivet.github.io/effugium/">Game</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://osf.io/cnjr5/">OSF</a> </center>
+#### <center> <a href="https://www.psy.ox.ac.uk/people/tsvetomira-dumbalska">Research</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://atomsrivet.github.io/thesis/">Thesis</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://atomsrivet.github.io/effugium/">Game</a> 
 
 <br>
 
