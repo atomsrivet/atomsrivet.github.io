@@ -1,4 +1,11 @@
 ---
 ---
 
-$leftWidth: 350px;
+.content {
+	$leftWidth: 350px;
+	@media screen and (min-width: $mobileW + 1) {
+	max-width: calc(100% - #{$leftWidth});
+	margin-left: $leftWidth;
+	width: 100%;
+	}
+
