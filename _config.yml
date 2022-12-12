@@ -1,4 +1,4 @@
-remote_theme: samarsault/plainwhite-jekyll
+remote_theme: atomsrivet/plainwhite-jekyll
 plugins:
 - jekyll-remote-theme 
 
