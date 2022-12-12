@@ -11,12 +11,17 @@ show_excerpts: true # set to true to show excerpts on the homepage
 
 plainwhite:
   name: Tsvetomira Dumbalska
-  tagline: Cognitive scientist @ University of Oxford
+  tagline: >
+   Cognitive Scientist 
+   <center><p><a href="https://www.psy.ox.ac.uk/people/tsvetomira-dumbalska">Department of Experimental Psychology</a><br>
+   <a href="https://www.wadham.ox.ac.uk/people/tsvetomira-dumbalska">Wadham College</a><br>
+   University of Oxford</center></p>
   date_format: "%b %-d, %Y"
   sitemap: true
   dark_mode: true
   social_links:
-    github: atomsrivet
+    email: tsvetomira.dumbalska@psy.ox.ac.uk
+    #github: atomsrivet
 
   portfolio_image:  "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
 
