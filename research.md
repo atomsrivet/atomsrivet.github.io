@@ -16,9 +16,9 @@ layout: default
 <div class="grid-container">
   <div style="width: 150px; height: 150px;"><a href="https://www.pnas.org/doi/full/10.1073/pnas.2005058117"><img src="assets/decoy.png"  style="height:110px;width:110px;"></a></div> 
   <div style="width: 90%; height: auto;"> <b>A map of decoy influence in human multialternative choice</b>, PNAS 2020 <br>
-  	<small> <i>with Vickie Li*, Konstantinos Tsetsos, and Christopher Summerfield </i><br> </small>
-  	<p style="font-size:13px">
-  	Choices between two goods can be swayed by a third, less appealing "decoy" option. Here, we mapped how diecoys with different attributes affect human decisions. We used these data to arbitrate between different extant models of contextual influence. We showed that the rich pattern of decoy influence can be captured by a theory of relative information-processing, grounded in neural normalization. * This work was co-led by Dr Vickie Li who designed, built and conducted the experiment with human volunteers. </p>
+  	<small> <i>with Vickie Li*, Konstantinos Tsetsos, and Christopher Summerfield </i><br> </small> 
+  	<p> <small>
+  	Choices between two goods can be swayed by a third, less appealing "decoy" option. Here, we mapped how diecoys with different attributes affect human decisions. We used these data to arbitrate between different extant models of contextual influence. We showed that the rich pattern of decoy influence can be captured by a theory of relative information-processing, grounded in neural normalization. * This work was co-led by Dr Vickie Li who designed, built and conducted the experiment with human volunteers. </small> <a href="https://www.pnas.org/doi/full/10.1073/pnas.2005058117">pdf</a> &nbsp; <a href="https://osf.io/u6br3/">data & code</a> </p>
   </div>
 </div>
 <br>
@@ -26,8 +26,8 @@ layout: default
   <div style="width: 150px; height: 150px;"><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010609"><img src="assets/distractor.png"  style="height:110px;width:110px;"></a></div> 
   <div style="width: 90%; height: auto;"> <b>How do (perceptual) distracters distract?</b>, PLOS Computational Biology 2022 <br>
   	<small><i> with  Katarzyna Rudzka, Hannah E. Smithson, Christopher Summerfield</i><br></small>
-  	<p style="font-size:13px">
-  	Choices between two goods can be swayed by a third, less appealing "decoy" option. Here, we mapped how diecoys with different attributes affect human decisions. We used these data to arbitrate between different extant models of contextual influence. We showed that the rich pattern of decoy influence can be captured by a theory of relative information-processing, grounded in neural normalization. </p>
+  	<p> <small>
+  	Choices between two goods can be swayed by a third, less appealing "decoy" option. Here, we mapped how diecoys with different attributes affect human decisions. We used these data to arbitrate between different extant models of contextual influence. We showed that the rich pattern of decoy influence can be captured by a theory of relative information-processing, grounded in neural normalization.  </small>  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010609">pdf</a> &nbsp; <a href="https://osf.io/54rf2/">data & code</a> </p>
   </div>
 </div>
 
@@ -35,11 +35,11 @@ layout: default
 
 
 <div class="grid-container">
-  <div style="width: 150px; height: 150px;"><a href="https://ora.ox.ac.uk/objects/uuid:dc74f8c9-39cb-4180-a921-cc8194bca142/"><img src="assets/green.png"  style="height:110px;width:110px;"></a></div> <br>
+  <div style="width: 150px; height: 150px;"><a href="/assets/green.pdf"><img src="assets/green.png"  style="height:110px;width:110px;"></a></div> <br>
   <div style="width: 90%; height: auto;"> <b>Green nudges: applying behavioural economics to the fight against climate change</b>, PsyPAG 2020
   	<small><i>with Mirela Zaneva </i><br></small>
-  	<p style="font-size:13px">
-  	In this commentary, we review different approaches to "nudging" consumer behaviors towards greener choices. We propose a framework to maximize the potential positive impact of green nudges. </p>
+  	<p> <small>
+  	In this commentary, we review different approaches to "nudging" consumer behaviors towards greener choices. We propose a framework to maximize the potential positive impact of green nudges. </small> <a href="/assets/green.pdf">pdf</a></p>
   </div>
 </div>
 
@@ -47,8 +47,8 @@ layout: default
   <div style="width: 150px; height: 150px;"><a href="https://journals.sagepub.com/doi/full/10.1177/2041669517736323"><img src="assets/synaesthesia.png"  style="height:110px;width:110px;"></a></div> <br>
   <div style="width: 90%; height: auto;"> <b>Automaticity in Stimulus-Parity Synaesthesia</b>, i-Perception 2017  
   	<small><i>with Rebekah C. White, Mihaela D. Duta, and Kate Nation </i><br></small>
-  	<p style="font-size:13px">
-  	Stimulus-parity synaesthetes experience many non-numeric stimuli (including shapes and colors) as odd or even. Here, we assess whether those associations are automatic through a speeded reaction time task, inspired by a colored shape sorter toy. We found that a synaesthetic participant had trouble sorting "odd" shapes into "even" colored slots, as evidenced by her slower reaction times. Our control participants did not exhibit this parity-congruence effect. </p>
+  	<p> <small>
+  	Stimulus-parity synaesthetes experience many non-numeric stimuli (including shapes and colors) as odd or even. Here, we assess whether those associations are automatic through a speeded reaction time task, inspired by a colored shape sorter toy. We found that a synaesthetic participant had trouble sorting "odd" shapes into "even" colored slots, as evidenced by her slower reaction times. Our control participants did not exhibit this parity-congruence effect. </small> <a href="https://journals.sagepub.com/doi/full/10.1177/2041669517736323">pdf</a></p>
   </div>
 </div>
 
@@ -58,26 +58,26 @@ layout: default
 <center> <b> Cognitive Neuroscience </b> </center>
 
  <b>Neural knowledge assembly in humans and deep networks</b>, Under review <br>
- <small>Stephanie Nelli, Lukas Braun, <b>Tsvetomira Dumbalska</b>, Andrew Saxe, Christopher Summerfield</small>
+ <small>Stephanie Nelli, Lukas Braun, <b>Tsvetomira Dumbalska</b>, Andrew Saxe, Christopher Summerfield</small> <a href="https://www.biorxiv.org/content/10.1101/2021.10.21.465374.full.pdf">pdf</a>
 
  <b>Orthogonal representations for robust context-dependent task performance in brains and neural networks</b>, Neuron 2022 <br>
- <small>Timo Flesch, Keno Juechems, <b>Tsvetomira Dumbalska</b>, Andrew Saxe, Christopher Summerfield</small>
+ <small>Timo Flesch, Keno Juechems, <b>Tsvetomira Dumbalska</b>, Andrew Saxe, Christopher Summerfield</small> <a href="https://www.sciencedirect.com/science/article/pii/S0896627322000058">pdf</a>
 
  <b>How does value distract?</b>, Nature Human Behaviour 2022 <br>
- <small>Christopher Summerfield, <b>Tsvetomira Dumbalska</b></small>
+ <small>Christopher Summerfield, <b>Tsvetomira Dumbalska</b> </small> <a href="/assets/value.pdf">pdf</a>
 
  <b>“17” is odd and “seventeen” is even: Meaning and physical form in stimulus-parity synaesthesia</b>, Quarterly Journal of Experimental Psychology 2018 <br>
- <small>Rebekah C White, <b>Tsvetomira Dumbalska</b>, Mihaela D Duta, Kate Nation</small>
+ <small>Rebekah C White, <b>Tsvetomira Dumbalska</b>, Mihaela D Duta, Kate Nation</small> <a href="/assets/17.pdf">pdf</a>
 
  <b>Two left hands, ten interlaced fingers: a new rubber hand illusion</b>, Perception 2016 <br> 
- <small>Rebekah C White, Dillon Bowen, Tsvetomira Dumbalska, Katharine Hoeger, Anastasia YS Mok</small>
+ <small>Rebekah C White, Dillon Bowen, <b>Tsvetomira Dumbalska</b>, Katharine Hoeger, Anastasia YS Mok</small> <a href="/assets/hands.pdf">pdf</a>
 
 
 <center> <b> Open Science </b> </center>
 
  <b>A network of change: united action on research integrity</b>, BMC Research Notes 2022 <br>
- <small>Thomas Rhys Evans, Madeleine Pownall, Elizabeth Collins, Emma L Henderson, Jade S Pickering, Aoife O’Mahony, Mirela Zaneva, Matt Jaquiery, <b>Tsvetomira Dumbalska</b></small>
+ <small>Thomas Rhys Evans, Madeleine Pownall, Elizabeth Collins, Emma L Henderson, Jade S Pickering, Aoife O’Mahony, Mirela Zaneva, Matt Jaquiery, <b>Tsvetomira Dumbalska</b></small> <a href="https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-022-06026-y">pdf</a>
 
  <b>A community-sourced glossary of open scholarship terms</b>, Nature Human Behaviour 2022 <br>
- <small>Sam Parsons, Flávio Azevedo, Mahmoud M Elsherif, Samuel Guay, Owen N Shahim, Gisela H Govaart, et al.</small>
+ <small>Sam Parsons, Flávio Azevedo, Mahmoud M Elsherif, Samuel Guay, Owen N Shahim, Gisela H Govaart, et al.</small> <a href="https://www.nature.com/articles/s41562-021-01269-4">pdf</a>
 
