@@ -3,7 +3,7 @@ layout: default
 
 ---
 
-#### <center> <a href="/index">about</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/research">research</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/thesis/">thesis</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/effugium/">demo</a> 
+#### <center> <a href="/index">about</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/research">research</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/thesis/">thesis</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/effugium">demo</a> 
 
 <br>
 
