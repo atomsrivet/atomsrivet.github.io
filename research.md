@@ -14,7 +14,7 @@ My current work centers on the factors that allow us to learn about the world qu
 <br>
 
 ### Doctoral work
-<p style="font-size:10"> In my doctoral thesis, I investigated why seemingly irrelevant contextual information can sway what we choose when faced with perceptual and economic decisions. My research showed that a relative mode of information processing, grounded in neural normalization, can explain the rich map of contextual influence of economic decoys, perceptual distractors and temporal reference frames. By encoding information in this relative fashion, the brain can boost computational efficiency. My thesis on Context Dependencies in Decision Making is avilable <a href="https://atomsrivet.github.io/thesis/">here</a>.	
+<p style="font-size:10"> In my doctoral thesis, I investigated why seemingly irrelevant contextual information can sway what we choose when faced with perceptual and economic decisions. My research showed that a relative mode of information processing, grounded in neural normalization, can explain the rich map of contextual influence of economic decoys, perceptual distractors and temporal reference frames. By encoding information in this relative fashion, the brain can boost computational efficiency. An online version of my thesis on Context Dependencies in Decision Making is avilable <a href="https://atomsrivet.github.io/thesis/">here</a>.	
 </p> <br>
 
 <div class="grid-container">
