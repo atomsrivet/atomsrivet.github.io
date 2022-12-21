@@ -1,6 +1,7 @@
 remote_theme: atomsrivet/plainwhite-jekyll
 plugins:
 - jekyll-remote-theme 
+- jekyll-sitemap
 
 title: Tsvetomira Dumbalska
 author: Tsvetomira Dumbalska
