@@ -6,10 +6,7 @@ title: Tsvetomira Dumbalska
 author: Tsvetomira Dumbalska
 email: tsvetomira.dumbalska@psy.ox.ac.uk
 description: > # this means to ignore newlines until "show_exerpts:"
-Postdoctoral Research Fellow
-Department of Experimental Psychology
-Wadham College
-University of Oxford  
+Postdoctoral Research Fellow Department of Experimental Psychology Wadham College University of Oxford 
 show_excerpts: true # set to true to show excerpts on the homepage
 
 
@@ -17,8 +14,7 @@ plainwhite:
   name: Tsvetomira Dumbalska
   tagline: >
    Cognitive Scientist 
-   <center>
-   <a href="https://www.psy.ox.ac.uk/people/tsvetomira-dumbalska">Department of Experimental Psychology</a><br>
+   <center><a href="https://www.psy.ox.ac.uk/people/tsvetomira-dumbalska">Department of Experimental Psychology</a><br>
    <a href="https://www.wadham.ox.ac.uk/people/tsvetomira-dumbalska">Wadham College</a><br>
    University of Oxford</center>
   date_format: "%b %-d, %Y"
