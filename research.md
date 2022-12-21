@@ -3,16 +3,20 @@ layout: default
 
 ---
 
-#### <center> <a href="/index">about</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/research">research</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/thesis/">thesis</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/effugium">demo</a> 
+#### <center> <a href="/index">about</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/research">research</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/thesis/">thesis</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/effugium/">demo</a> 
 
 <br>
 
 ## Research 
 
+My current work centers on the factors that allow us to learn about the world quickly and successfully. As part of this work, I carry out experiments in gamified environments and develop models of how we learn. To play a demo of an escape room maze game I built for this work, click <a href="https://atomsrivet.github.io/effugium/">here</a>.
+<br>
+<br>
 
 ### Doctoral work
-<p style="font-size:14"> My thesis on Context Dependencies in Decision Making is avilable <a href="https://atomsrivet.github.io/thesis/">here</a>.	
-</p>
+<p style="font-size:10"> In my doctoral thesis, I investigated why seemingly irrelevant contextual information can sway what we choose when faced with perceptual and economic decisions. My research showed that a relative mode of information processing, grounded in neural normalization, can explain the rich map of contextual influence of economic decoys, perceptual distractors and temporal reference frames. By encoding information in this relative fashion, the brain can boost computational efficiency. My thesis on Context Dependencies in Decision Making is avilable <a href="https://atomsrivet.github.io/thesis/">here</a>.	
+</p> <br>
+
 <div class="grid-container">
   <div style="width: 150px; height: 150px;"><a href="https://www.pnas.org/doi/full/10.1073/pnas.2005058117"><img src="assets/decoy.png"  style="height:110px;width:110px;"></a></div> 
   <div style="width: 90%; height: auto;"> <b>A map of decoy influence in human multialternative choice</b>, PNAS 2020 <br>
