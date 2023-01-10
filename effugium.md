@@ -9,7 +9,7 @@ layout: default
 
 ## Game Demo
 
-My research uses games to study how humans learn and make decisions. To play a demo of an escape room inspired game I built for this, follow the links below:
+My research uses games to study how people learn and make decisions. To play a demo of an escape room inspired game I built for this, follow the links below:
 
 <br>
 <center>
