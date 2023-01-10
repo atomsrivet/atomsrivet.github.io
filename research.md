@@ -43,7 +43,7 @@ My current work centers on the factors that allow us to learn about the world qu
   <div style="width: 90%; height: auto;"> <b>Green nudges: applying behavioural economics to the fight against climate change</b>, PsyPAG 2020
   	<small><i>with Mirela Zaneva </i><br></small>
   	<p> <small>
-  	In this commentary, we review different approaches to "nudging" consumer behaviors towards greener choices. We propose a framework to maximize the potential positive impact of green nudges. </small> <a href="/assets/green.pdf">pdf</a></p>
+  	In this commentary, we review different approaches to "nudging" consumer behaviors towards greener choices. We propose a framework to maximize the potential positive impact of green nudges. While this article focuses on existing approaches for individual behavior change, we agree with <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4046264">other researchers</a> who have advocated that, to address the climate emergency, we need comprehensive, systemic changes, focusing on the system in which individual behaviors are embedded. </small> <a href="/assets/green.pdf">pdf</a></p>
   </div>
 </div>
 
@@ -52,7 +52,7 @@ My current work centers on the factors that allow us to learn about the world qu
   <div style="width: 90%; height: auto;"> <b>Automaticity in Stimulus-Parity Synaesthesia</b>, i-Perception 2017  
   	<small><i>with Rebekah C. White, Mihaela D. Duta, and Kate Nation </i><br></small>
   	<p> <small>
-  	Stimulus-parity synaesthetes experience many non-numeric stimuli (including shapes and colors) as odd or even. Here, we assess whether those associations are automatic through a speeded reaction time task, inspired by a colored shape sorter toy. We found that a synaesthetic participant had trouble sorting "odd" shapes into "even" colored slots, as evidenced by her slower reaction times. Our control participants did not exhibit this parity-congruence effect. </small> <a href="https://journals.sagepub.com/doi/full/10.1177/2041669517736323">pdf</a></p>
+  	Stimulus-parity synaesthetes experience many non-numeric stimuli (including shapes and colors) as odd or even. Here, we assess whether those associations are automatic through a speeded reaction time task, inspired by a colored shape sorter toy. We found that a synaesthetic participant had trouble sorting "odd" shapes into "even" colored slots, as evidenced by her slower reaction times. Our non-synaesthetic control participants did not exhibit this parity-congruence effect. These results suggest that synaesthetic stimulus-parity associations occur in an involuntary, "automatic" fashion. </small> <a href="https://journals.sagepub.com/doi/full/10.1177/2041669517736323">pdf</a></p>
   </div>
 </div>
 
