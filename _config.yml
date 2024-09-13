@@ -13,9 +13,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 
 plainwhite:
   name: Tsvetomira Dumbalska
-  tagline: >
-   <center>
-   Cognitive Scientist 
+  tagline: <center>
+   Cognitive Scientist <br>
    <a href="https://www.psy.ox.ac.uk/people/tsvetomira-dumbalska">Department of Experimental Psychology</a><br>
    <a href="https://www.bnc.ox.ac.uk/about-brasenose/academic-staff/628-dr-tsvetomira-dumbalska">Brasenose College</a><br>
    University of Oxford</center>
