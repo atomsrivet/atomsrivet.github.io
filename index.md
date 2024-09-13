@@ -12,7 +12,7 @@ layout: default
 <div class="grid-container" style="position: center">
   <div style="width:100%" data-media="(orientation: portrait)"> <center> </center>
 
-I am a Postdoctoral Research Fellow at the University of Oxford. My research focuses on how we learn about the world and make decisions. To study this, I conduct experiments with human volunteers with (hopefully) fun, interactive games like <a href="/effugium">this one</a>. I use quantitative approaches to analyze and model the data, including artificial neural networks and reinforcement learning.
+I am a Postdoctoral Research Fellow at the University of Oxford. My research focuses on how we learn about the world and make decisions. To study this, I conduct experiments with human volunteers with interactive gamified tasks like <a href="/effugium">this one</a>. I use quantitative approaches to analyze and model the data, including artificial neural networks and reinforcement learning.
 <br>
 <br>
 Before this, I completed a BA in Economics at Brown University and a DPhil (PhD) in Experimental Psychology at the University of Oxford. My doctoral work investigated why irrelevant contextual information can often sway our choices. You can find an online version of my doctoral thesis <a href="/thesis">here</a>.
@@ -20,7 +20,6 @@ Before this, I completed a BA in Economics at Brown University and a DPhil (PhD)
 <br>
 <br>
 
-<a href="/assets/cv_dumbalska.pdf">Curriculum Vitae</a>
   </div>
   <div style="width:20%" data-media="(orientation: portrait)"> <center> </center>
   </div>
