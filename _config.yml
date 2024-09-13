@@ -1,4 +1,4 @@
-remote_theme: atomsrivet/plainwhite-jekyll
+remote_theme: atomsrivet/plainwhite-jekyll2
 plugins:
 - jekyll-remote-theme 
 - jekyll-sitemap
