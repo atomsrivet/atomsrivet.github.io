@@ -20,7 +20,7 @@ plainwhite:
    University of Oxford</center>
   date_format: "%b %-d, %Y"
   sitemap: true
-  dark_mode: true
+  dark_mode: false
   social_links:
     email: tsvetomira.dumbalska@psy.ox.ac.uk
     osf: cnjr5
