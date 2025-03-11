@@ -4,13 +4,15 @@ layout: default
 ---
 
 <br>
+<br>
+<br>
 
 ## Research 
 
 My research investigates how the structure and order of information affects how humans and artificial neural networks learn about the world and make decisions. My work combines large data from experiments in gamified environments and computational modelling to shed light on the information processing mechanisms in humans and artificial neural networks. 
 
 My publications cluster around 4 main themes:
- 1. <b> Context dependence in decision making. </b> How does the informational ladnscape –information that we have recently experienced– affect perceptual and economic decisions? My work has provided evidence on the computational mechanisms underlying context-dependent judgments, demonstrating that the influence perceptual distractors and decoy consumer products may arise due to a shared, efficient computational principle – neural adaptation (Dumbalska et al., 2022; Dumbalska et al., 2020), and that reference effects owe to changes in both how we experience (perception) and evaluate incoming information (judgment; Dumbalska & Smithson 2024). For this line of work, I received two research prizes: The Humphreys Prize for Best Research Project (University of Oxford) and the Pembroke College Senior Studentship.
+ 1. <b> Context dependence in decision making. </b> How does the informational landscape –information that we have recently experienced– affect perceptual and economic decisions? My work has provided evidence on the computational mechanisms underlying context-dependent judgments, demonstrating that the influence perceptual distractors and decoy consumer products may arise due to a shared, efficient computational principle – neural adaptation (Dumbalska et al., 2022; Dumbalska et al., 2020), and that reference effects owe to changes in both how we experience (perception) and evaluate incoming information (judgment; Dumbalska & Smithson 2024). For this line of work, I received two research prizes: The Humphreys Prize for Best Research Project (University of Oxford) and the Pembroke College Senior Studentship.
  <br>
  2. <b> Representation learning. </b> How does the the structure and order of learning opportunities (termed curricula in education and machine learning) affect learning outcomes and neural representations? My research has charted how balancing conceptual and strategic complexity during training can lead to accelerated and more successful learning (Dumbalska et al., 2023). As part of this line of work, I have collected large-scale data from >15,000 participants world-wide charting learning progression on a gamified task (<a href="https://atomsrivet.github.io/roomworld/index_game.html">demo</a>).
  <br>
@@ -22,7 +24,7 @@ My publications cluster around 4 main themes:
 
 ## Publications
 
-- <b>Dumbalska, T.</b>, & Smithson, H. E. (2024). Reference dependence arises due to contextual shifts in both perception and judgment. Retrieved from osf.io/preprints/psyarxiv/qpy2w (Preprint).
+- <b>Dumbalska, T.</b>, & Smithson, H. E. (2024). Reference dependence arises due to contextual shifts in both perception and judgment. (<a href="https://osf.io/preprints/psyarxiv/qpy2w">Preprint</a> ).
   - Here, we develop a method to shed light on the computational origins of reference dependence that have been subject to half a century of controversy. Our work combines psychophysics with computational modelling to arbitrate between influences on the level of perception, judgment and action.
 
 - <b>Dumbalska, T.</b>, Bhatti, A., Ali, I., & Summerfield, C. (2023). How do humans learn concepts and strategies? Computational Cognitive Neuroscience. (Conference Proceedings).
@@ -47,7 +49,8 @@ My publications cluster around 4 main themes:
 
 - Zaneva, M., & <b>Dumbalska, T.</b> (2020). Green Nudges: Applying Behavioral Economics to the Fight Against Climate Change. Quarterly PsyPAG, 116 , 27-31.
   - In this perspective piece, we propose a framework for considering intervention targets for behavioural scientists aiming to prompt new (and support existing) environmentally-friendly behaviours and review the relevant evidence base. 
-  
+
+
 - <b>Dumbalska, T.</b>, White, R. C., Duta, M. D., & Nation, K. (2017). Automaticity in Stimulus-Parity Synaesthesia. i-Perception, 8(6), 2041669517736323.
   - Here, we provide evidence for atypical perceptual experiences in synaesthesia.
 
