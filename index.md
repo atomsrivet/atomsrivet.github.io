@@ -3,8 +3,6 @@ layout: default
 
 ---
 
-#### <center> <a href="/index">about</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/research">research</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/thesis/">thesis</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/effugium/">demo</a> 
-
 <br>
 
 ## About
@@ -12,7 +10,7 @@ layout: default
 <div class="grid-container" style="position: center">
   <div style="width:100%" data-media="(orientation: portrait)"> <center> </center>
 
-I am a Postdoctoral Research Fellow at the University of Oxford. My research focuses on how we learn about the world and make decisions. To study this, I conduct experiments with human volunteers with interactive gamified tasks like <a href="/effugium">this one</a>. I use quantitative approaches to analyze and model the data, including artificial neural networks and reinforcement learning.
+I am a postdoctoral research fellow at the University of Oxford. My research focuses on how humans and artificial agents learn about the world and make decisions. I am particularly interested in how the structure and order of information affects judgment and inference. You can learn more about my research and publications <a href="/research">here</a> and my teaching and service <a href="/teaching_service">here</a>.
 <br>
 <br>
 Before this, I completed a BA in Economics at Brown University and a DPhil (PhD) in Experimental Psychology at the University of Oxford. My doctoral work investigated why irrelevant contextual information can often sway our choices. You can find an online version of my doctoral thesis <a href="/thesis">here</a>.
