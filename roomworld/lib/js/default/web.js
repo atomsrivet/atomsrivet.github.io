@@ -77,7 +77,7 @@ function showDiv(element){
       document.getElementById(element).hidden = false;
 }
 function goWebsite(url) {
-  printDiv("webbodyDiv",url);
+  $("#content").load(url);
 }
 
 <!-- Auxiliar methods for HTML templates -->
