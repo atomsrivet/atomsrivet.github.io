@@ -16,7 +16,7 @@ My publications cluster around 4 main themes:
 <p>
 <details>
   <summary>
- 1. <b> Context dependence in decision making. </b> How does the informational landscape –information that we have recently experienced– affect perceptual and economic decisions? </summary> 
+ 1. <b> Context dependence in decision making. </b> How does contextual information affect perceptual and economic decisions? </summary> 
  <br>
   My work has provided evidence on the computational mechanisms underlying context-dependent judgments, demonstrating that the influence perceptual distractors and decoy consumer products may arise due to a shared, efficient computational principle – neural adaptation (Dumbalska et al., 2022; Dumbalska et al., 2020), and that reference effects owe to changes in both how we experience (perception) and how we evaluate incoming information (judgment; Dumbalska & Smithson 2024). For this line of work, I received two research prizes: The Humphreys Prize for Best Research Project (University of Oxford) and the Pembroke College Senior Studentship. 
   <br>
@@ -34,7 +34,7 @@ My publications cluster around 4 main themes:
  </details></p>
  <p><details>
   <summary>
- 2. <b> Representation learning. </b> How does the the structure and order of learning opportunities –termed curricula in education and machine learning– affect learning outcomes and neural representations? </summary> 
+ 2. <b> Representation learning. </b> How does the structure and order of learning opportunities –termed curricula in education and machine learning– affect learning outcomes and neural representations? </summary> 
   <br>
   My research has charted how balancing conceptual and strategic complexity during training can lead to accelerated and more successful learning (Dumbalska et al., 2023). As part of this line of work, I have collected large-scale data from >15,000 participants world-wide charting learning progression on a gamified task (<a href="https://atomsrivet.github.io/roomworld/index_game.html">demo</a>).
   <br> 
