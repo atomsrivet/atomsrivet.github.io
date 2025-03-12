@@ -16,27 +16,26 @@ My publications cluster around 4 main themes:
 <details>
   <summary>
  1. <b> Context dependence in decision making. </b> How does the informational landscape –information that we have recently experienced– affect perceptual and economic decisions? </summary> 
+ <br>
  My work has provided evidence on the computational mechanisms underlying context-dependent judgments, demonstrating that the influence perceptual distractors and decoy consumer products may arise due to a shared, efficient computational principle – neural adaptation (Dumbalska et al., 2022; Dumbalska et al., 2020), and that reference effects owe to changes in both how we experience (perception) and how we evaluate incoming information (judgment; Dumbalska & Smithson 2024). For this line of work, I received two research prizes: The Humphreys Prize for Best Research Project (University of Oxford) and the Pembroke College Senior Studentship. 
- 
-### Publications:
-
-<b>Dumbalska, T.</b>, & Smithson, H. E. (2024). Reference dependence arises due to contextual shifts in both perception and judgment. (<a href="https://osf.io/preprints/psyarxiv/qpy2w">Preprint</a>).
+ <br><br>
+<b>Dumbalska, T.</b>, & Smithson, H. E. (2024). Reference dependence arises due to contextual shifts in both perception and judgment. (<a href="https://osf.io/preprints/psyarxiv/qpy2w">Preprint</a>). <br>
   - Here, we develop a method to shed light on the computational origins of reference dependence that have been subject to half a century of controversy. Our work combines psychophysics with computational modelling to arbitrate between influences on the level of perception, judgment and action.
-
-<b>Dumbalska, T.</b>, Rudzka, K., Smithson, H. E., & Summerfield, C. (2022). How do (perceptual) distracters distract?. PLOS Computational Biology, 18(10), e1010609. (<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010609">Open access link</a>)
+<br><br>
+<b>Dumbalska, T.</b>, Rudzka, K., Smithson, H. E., & Summerfield, C. (2022). How do (perceptual) distracters distract?. PLOS Computational Biology, 18(10), e1010609. (<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010609">Open access link</a>) <br>
   - Here, we provide evidence that perceptual distractors modulate choices in a way that depends on their similarity to target stimuli (interaction effect), as opposed to wielding an independent influence on choices (independent effect). We accounted for these effects in an efficient coding framework, appealing to neural normalization, via computational modelling.
-
-<b>Dumbalska, T.</b>, Li, V., Tsetsos, K., & Summerfield, C. (2020). A map of decoy influence in human multialternative choice. Proceedings of the National Academy of Sciences, 117(40), 25169-25178. (<a href="https://www.pnas.org/doi/full/10.1073/pnas.2005058117">Open access link</a>)
+<br><br>
+<b>Dumbalska, T.</b>, Li, V., Tsetsos, K., & Summerfield, C. (2020). A map of decoy influence in human multialternative choice. Proceedings of the National Academy of Sciences, 117(40), 25169-25178. (<a href="https://www.pnas.org/doi/full/10.1073/pnas.2005058117">Open access link</a>)<br>
   - Here, we took a novel approach to studying decoy effects: rather than sampling a subset of stereotyped values (as in existing studies), we charted the full “decoy influence map”, by exhaustively measuring the influence of a decoy stimulus D(i,j) with attributes i and j on choices between two choice targets.
-
-Summerfield, C., & <b>Dumbalska, T.</b> (2020). How does value distract?. Nature Human Behaviour, 4(6), 564-564. (<a href="/assets/Summerfield&Dumbalska_2020.pdf">PDF</a>)
+<br><br>
+Summerfield, C., & <b>Dumbalska, T.</b> (2020). How does value distract?. Nature Human Behaviour, 4(6), 564-564. (<a href="/assets/Summerfield&Dumbalska_2020.pdf">PDF</a>)<br>
   - In this comment, we contextualize new results on value distraction by Gluth and colleagues in existing evidence and theory on value normalization and efficient neural processing. I co-wrote this.
-
-Zaneva, M., & <b>Dumbalska, T.</b> (2020). Green Nudges: Applying Behavioral Economics to the Fight Against Climate Change. Quarterly PsyPAG, 116 , 27-31. (<a href="/assets/Zaneva&Dumbalska_2020.pdf">PDF</a>)
+<br><br>
+Zaneva, M., & <b>Dumbalska, T.</b> (2020). Green Nudges: Applying Behavioral Economics to the Fight Against Climate Change. Quarterly PsyPAG, 116 , 27-31. (<a href="/assets/Zaneva&Dumbalska_2020.pdf">PDF</a>)<br>
   - In this perspective piece, we propose a framework for considering intervention targets for behavioural scientists aiming to prompt new (and support existing) environmentally-friendly behaviours and review the relevant evidence base. 
-
+<br><br>
  </details>
-
+<br>
 <details>
   <summary>
  2. <b> Representation learning. </b> How does the the structure and order of learning opportunities (termed curricula in education and machine learning) affect learning outcomes and neural representations? </summary> 
