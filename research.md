@@ -50,6 +50,9 @@ My publications cluster around 4 main themes:
  3. <b> Value alignment. </b> How do we ensure that artificial agents' objectives are aligned with human values? </summary>
 <br>
   My current research investigates value alignment in open source reward models and the potential influence of human biases on alignment in a standard RLHF setting. 
+ <br>
+ <ul>
+  <li>Christian, B., Kirk, H.R., Thompson, J.A.F., Summerfield, C., <b>Dumbalska, T.</b> (Under review). Reward Model Interpretability Via Optimal and Pessimal Tokens </li> </ul>
  </details></p>
  <p><details>
  <summary>
