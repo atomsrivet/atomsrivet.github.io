@@ -34,7 +34,7 @@ My publications cluster around 4 main themes:
  </details></p>
  <p><details>
   <summary>
- 2. <b> Representation learning. </b> How does the the structure and order of learning opportunities (termed curricula in education and machine learning) affect learning outcomes and neural representations? </summary> 
+ 2. <b> Representation learning. </b> How does the the structure and order of learning opportunities –termed curricula in education and machine learning– affect learning outcomes and neural representations? </summary> 
   <br>
   My research has charted how balancing conceptual and strategic complexity during training can lead to accelerated and more successful learning (Dumbalska et al., 2023). As part of this line of work, I have collected large-scale data from >15,000 participants world-wide charting learning progression on a gamified task (<a href="https://atomsrivet.github.io/roomworld/index_game.html">demo</a>).
   <br> 
