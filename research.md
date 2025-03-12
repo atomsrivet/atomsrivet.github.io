@@ -20,7 +20,7 @@ My publications cluster around 4 main themes:
  <br>
   My work has provided evidence on the computational mechanisms underlying context-dependent judgments, demonstrating that the influence perceptual distractors and decoy consumer products may arise due to a shared, efficient computational principle – neural adaptation (Dumbalska et al., 2022; Dumbalska et al., 2020), and that reference effects owe to changes in both how we experience (perception) and how we evaluate incoming information (judgment; Dumbalska & Smithson 2024). For this line of work, I received two research prizes: The Humphreys Prize for Best Research Project (University of Oxford) and the Pembroke College Senior Studentship. 
   <br>
-  <ul><li><b>Dumbalska, T.</b>, & Smithson, H. E. (2024). Reference dependence arises due to contextual shifts in both perception and judgment. (<a href="https://osf.io/preprints/psyarxiv/qpy2w">Preprint</a>).</li> 
+  <ul><li><b>Dumbalska, T.</b>, & Smithson, H. E. (2024). Reference dependence arises due to contextual shifts in both perception and judgment. (<a href="https://osf.io/preprints/psyarxiv/qpy2w">Preprint</a>).</li>
    <ul><li>Here, we develop a method to shed light on the computational origins of reference dependence that have been subject to half a century of controversy. Our work combines psychophysics with computational modelling to arbitrate between influences on the level of perception, judgment and action. </li></ul><br>
   <li><b>Dumbalska, T.</b>, Rudzka, K., Smithson, H. E., & Summerfield, C. (2022). How do (perceptual) distracters distract?. PLOS Computational Biology, 18(10), e1010609. (<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010609">Open access link</a>) </li>
    <ul><li>Here, we provide evidence that perceptual distractors modulate choices in a way that depends on their similarity to target stimuli (interaction effect), as opposed to wielding an independent influence on choices (independent effect). We accounted for these effects in an efficient coding framework, appealing to neural normalization, via computational modelling.</li></ul><br>
@@ -53,7 +53,7 @@ My publications cluster around 4 main themes:
  </details></p>
  <p><details>
  <summary>
- 4. <b> Open Science. </b> How can we enhance the transparency and reproducibility of scientific research? </summary>  <br>
+ 4. <b> Open Science. </b> How do we enhance the transparency and reproducibility of scientific research? </summary>  <br>
   I am actively involved in the open science movement and initiatives to increase the transparency and reproducibility of research results. I have contributed to two pieces of written evidence for policy on Reproducibility and Research Integrity for the UK Government (entries 20210930 and EGYJ106500), several open science publications and computational reproducibility projects.
   <br> 
   <ul>
