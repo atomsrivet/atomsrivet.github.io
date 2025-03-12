@@ -15,7 +15,7 @@ My publications cluster around 4 main themes:
 
 <details>
   <summary>
- <b> Context dependence in decision making. </b> How does the informational landscape –information that we have recently experienced– affect perceptual and economic decisions? </summary> 
+ 1. <b> Context dependence in decision making. </b> How does the informational landscape –information that we have recently experienced– affect perceptual and economic decisions? </summary> 
  <br>
  My work has provided evidence on the computational mechanisms underlying context-dependent judgments, demonstrating that the influence perceptual distractors and decoy consumer products may arise due to a shared, efficient computational principle – neural adaptation (Dumbalska et al., 2022; Dumbalska et al., 2020), and that reference effects owe to changes in both how we experience (perception) and how we evaluate incoming information (judgment; Dumbalska & Smithson 2024). For this line of work, I received two research prizes: The Humphreys Prize for Best Research Project (University of Oxford) and the Pembroke College Senior Studentship. 
  <br><br>
@@ -34,9 +34,7 @@ Summerfield, C., & <b>Dumbalska, T.</b> (2020). How does value distract?. Nature
 Zaneva, M., & <b>Dumbalska, T.</b> (2020). Green Nudges: Applying Behavioral Economics to the Fight Against Climate Change. Quarterly PsyPAG, 116 , 27-31. (<a href="/assets/Zaneva&Dumbalska_2020.pdf">PDF</a>)<br>
 &emsp;- In this perspective piece, we propose a framework for considering intervention targets for behavioural scientists aiming to prompt new (and support existing) environmentally-friendly behaviours and review the relevant evidence base.  
 <br>
- </details>
-
-<details>
+ </details><details>
   <summary>
  2. <b> Representation learning. </b> How does the the structure and order of learning opportunities (termed curricula in education and machine learning) affect learning outcomes and neural representations? </summary> 
   <br>
@@ -49,16 +47,12 @@ Nelli, S., Braun, L., <b>Dumbalska, T.</b>, Saxe, A., & Summerfield, C. (2023). 
 <br><br>
 Flesch, T., Juechems, K., <b>Dumbalska, T.</b>, Saxe, A., & Summerfield, C. (2022). Orthogonal representations for robust context-dependent task performance in brains and neural networks. Neuron, 110(7), 1258-1270. (<a href="https://www.cell.com/neuron/fulltext/S0896-6273(22)00005-8">Open access link</a>) 
  <br>
-</details>
-  <br>
- <details>
+</details><details>
  <summary>
  3. <b> Value alignment. </b> How do we ensure that artificial agents' objectives are aligned with human values? </summary>
 <br>
  My current research investigates value alignment in open source reward models and the potential influence of human biases on alignment in a standard RLHF setting.
- </details>
- <br>
- <details>
+ </details><details>
  <summary>
  4. <b> Open Science. </b> How can we enhance the transparency and reproducibility of scientific research? </summary>  <br>
  I am actively involved in the open science movement and initiatives to increase the transparency and reproducibility of research results. I have contributed to two pieces of written evidence for policy on Reproducibility and Research Integrity for the UK Government (entries 20210930 and EGYJ106500), several open science publications and computational reproducibility projects.
