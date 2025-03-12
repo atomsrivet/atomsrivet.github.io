@@ -15,7 +15,7 @@ My publications cluster around 4 main themes:
 
 <details>
   <summary>
- 1. <b> Context dependence in decision making. </b> How does the informational landscape –information that we have recently experienced– affect perceptual and economic decisions? </summary> 
+ <b> Context dependence in decision making. </b> How does the informational landscape –information that we have recently experienced– affect perceptual and economic decisions? </summary> 
  <br>
  My work has provided evidence on the computational mechanisms underlying context-dependent judgments, demonstrating that the influence perceptual distractors and decoy consumer products may arise due to a shared, efficient computational principle – neural adaptation (Dumbalska et al., 2022; Dumbalska et al., 2020), and that reference effects owe to changes in both how we experience (perception) and how we evaluate incoming information (judgment; Dumbalska & Smithson 2024). For this line of work, I received two research prizes: The Humphreys Prize for Best Research Project (University of Oxford) and the Pembroke College Senior Studentship. 
  <br><br>
