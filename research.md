@@ -57,7 +57,7 @@ My publications cluster around 4 main themes:
   I am actively involved in the open science movement and initiatives to increase the transparency and reproducibility of research results. I have contributed to two pieces of written evidence for policy on Reproducibility and Research Integrity for the UK Government (entries 20210930 and EGYJ106500), several open science publications and computational reproducibility projects.
   <br> 
   <ul>
-  <li>Röseler, L., Kaiser, L., Doetsch, C., Klett, N., Seida, C., Schütz, A., ... & Zhang, Y. (2024). The replication database: documenting the replicability of psychological science. Journal of Open Psychology Data, 12(8), 1-23. (<a href="https://eprints.bbk.ac.uk/id/eprint/54253/1/jopd.pdf">Submitted version</a>)</li><br>
+  <li>Röseler, L., ... <b>Dumbalska, T.</b>, et al. (2024). The replication database: documenting the replicability of psychological science. Journal of Open Psychology Data, 12(8), 1-23. (<a href="https://eprints.bbk.ac.uk/id/eprint/54253/1/jopd.pdf">Submitted version</a>)</li><br>
   <li>Parsons, S.,... <b>Dumbalska, T.</b>, et al. (2022). A Community-Sourced Glossary of Open Scholarship Terms. Nature Human Behaviour. (<a href="https://nantes-universite.hal.science/hal-03596508/document">Submitted version</a>)</li><br>
   <li>Evans, T.,… & <b>Dumbalska, T.</b>, et al. (2021). A network of change: Three priorities requiring united action on research integrity. BMC Research Notes. (<a href="https://link.springer.com/article/10.1186/s13104-022-06026-y">Open access link</a>)</li>
   </ul>
