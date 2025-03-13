@@ -9,7 +9,7 @@ layout: default
 
 ## Research 
 
-My research investigates how the structure and order of information affects how humans and artificial neural networks learn about the world and make decisions. My work combines large data from experiments in gamified environments and computational modelling to shed light on the information processing mechanisms in humans and artificial neural networks. 
+My research investigates how the structure and order of information affects how humans and artificial neural networks learn about the world and make decisions. My work combines big data from experiments in gamified environments and computational modelling to shed light on the information processing mechanisms in humans and artificial neural networks. 
 
 My publications cluster around 4 main themes:
 
@@ -36,7 +36,7 @@ My publications cluster around 4 main themes:
   <summary>
  2. <b> Representation learning. </b> How does the structure and order of learning opportunities –termed curricula in education and machine learning– affect learning outcomes and neural representations? </summary> 
   <br>
-  My research has charted how balancing conceptual and strategic complexity during training can lead to accelerated and more successful learning (Dumbalska et al., 2023). As part of this line of work, I have collected large-scale data from >15,000 participants world-wide charting learning progression on a gamified task (<a href="https://atomsrivet.github.io/roomworld/index_game.html">demo</a>).
+  My research has charted how balancing conceptual and strategic complexity during training can lead to accelerated and more successful learning (Dumbalska et al., 2023). As part of this line of work, I have collected large-scale data from >15,000 participants world-wide charting learning progression on a gamified task (<a href="https://atomsrivet.github.io/roomworld/index.html">demo</a>).
   <br> 
   <ul>
   <li><b>Dumbalska, T.</b>, Bhatti, A., Ali, I., & Summerfield, C. (2023). How do humans learn concepts and strategies? Computational Cognitive Neuroscience. (<a href="https://2023.ccneuro.org/proceedings/0000602.pdf?s=W&pn=1520">Conference Proceedings</a>). </li>
@@ -52,7 +52,7 @@ My publications cluster around 4 main themes:
   My current research investigates value alignment in open source reward models and the potential influence of human biases on alignment across standard RLHF settings and human-AI interactions.
  <br>
  <ul>
-  <li>Christian, B., Kirk, H.R., Thompson, J.A.F., Summerfield, C., <b>Dumbalska, T.</b> (Under review). Reward Model Interpretability Via Optimal and Pessimal Tokens </li> </ul>
+  <li>Christian, B., Kirk, H.R., Thompson, J.A.F., Summerfield, C., <b>Dumbalska, T.</b> (Under review). Reward Model Interpretability Via Optimal and Pessimal Tokens. </li> </ul>
  </details></p>
  <p><details>
  <summary>
