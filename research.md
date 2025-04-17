@@ -52,7 +52,7 @@ My publications cluster around 4 main themes:
   My current research investigates value alignment in open source reward models and the potential influence of human biases on alignment across standard RLHF settings and human-AI interactions.
  <br>
  <ul>
-  <li>Christian, B., Kirk, H.R., Thompson, J.A.F., Summerfield, C., <b>Dumbalska, T.</b> (Under review). Reward Model Interpretability Via Optimal and Pessimal Tokens. </li> </ul>
+  <li>Christian, B., Kirk, H.R., Thompson, J.A.F., Summerfield, C., <b>Dumbalska, T.</b> (In press). Reward Model Interpretability Via Optimal and Pessimal Tokens. <i>In Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency (FAccT 2025).</i> </li> </ul>
  </details></p>
  <p><details>
  <summary>

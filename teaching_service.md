@@ -15,7 +15,7 @@ As part of my lecturer position in Brasenose College, I lead small group teachin
 
 Previously, I have been involved in teaching in various capacities at the University of Oxford, including lecturing (computational psychology and decision making), tutorial teaching (statistics, cognition, perception, social psychology), demonstrating in practical classes (graduate-level programming and undergraduate visual neuroscience, perception, cognition and psychology of economics classes) and coordinating teaching activities for a visiting students program in Pembroke College. 
 
-I have been provided research supervision over the last 5 years, including 7 undergraduate final year research projects, 2 research internships for undergraduate students from marginalized backgrounds via the Wellcome BVS and UNIQ+ programs, and 2 graduate projects.
+I have provided research supervision over the last 5 years, including 7 undergraduate final year research projects, 2 research internships for undergraduate students from marginalized backgrounds via the Wellcome BVS and UNIQ+ programs, and 2 graduate projects.
 
 
 ### Service
